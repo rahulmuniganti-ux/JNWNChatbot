@@ -1,70 +1,83 @@
-from flask import Flask, request, jsonify, render_template
-import json
-import random
-import os
+from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-# Load intents
-with open("intents.json") as file:
-    intents = json.load(file)
+# In-memory storage (you can later replace with DB)
+pending_questions = ["What is AI?", "What is DBMS?"]
+learned_data = [
+    {"question": "Hi", "answer": "Hello!"},
+    {"question": "Bye", "answer": "Goodbye!"}
+]
 
-# Load learned data safely
-def load_learned_data():
-    if not os.path.exists("learned.json"):
-        return {"learned": [], "pending": []}
-    with open("learned.json") as file:
-        return json.load(file)
-
-# Chatbot logic
-def chatbot_response(user_input):
-    user_input = user_input.lower()
-    data = load_learned_data()
-
-    # Check learned answers
-    for item in data["learned"]:
-        if item["question"] in user_input:
-            return item["answer"]
-
-    # Check predefined intents
-    for intent in intents["intents"]:
-        for pattern in intent["patterns"]:
-            if pattern.lower() in user_input:
-                return random.choice(intent["responses"])
-
-    # Store unknown questions
-    if user_input not in data["pending"]:
-        data["pending"].append(user_input)
-        with open("learned.json", "w") as f:
-            json.dump(data, f, indent=2)
-
-    return "Sorry, I don’t know. We will provide the answer soon."
-
-# Home page
-@app.route("/")
-def home():
-    return render_template("index.html")
-
-# About page
-@app.route("/about")
-def about():
-    return render_template("about.html")
-
-# Admin page
+# 🔹 Admin Panel Route
 @app.route('/admin', methods=['GET', 'POST'])
 def admin():
-    return render_template('admin.html', pending=pending, learned=learned)
+    global pending_questions, learned_data
 
-# Chat API
-@app.route("/chat", methods=["POST"])
-def chat():
-    try:
-        user_message = request.json["message"]
-        response = chatbot_response(user_message)
-        return jsonify({"reply": response})
-    except Exception as e:
-        return jsonify({"reply": "Server error occurred"}), 500
+    if request.method == 'POST':
+        question = request.form.get('question')
+        answer = request.form.get('answer')
 
-# Run app (for Render)
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+        if question and answer:
+            # Remove from pending
+            if question in pending_questions:
+                pending_questions.remove(question)
+
+            # Add to learned data
+            learned_data.append({
+                "question": question,
+                "answer": answer
+            })
+
+    return render_template(
+        'admin.html',
+        pending=pending_questions,
+        learned=learned_data
+    )
+
+# 🔹 Edit Route
+@app.route('/edit/<int:index>', methods=['GET', 'POST'])
+def edit(index):
+    if request.method == 'POST':
+        new_q = request.form.get('question')
+        new_a = request.form.get('answer')
+
+        if new_q and new_a:
+            learned_data[index] = {
+                "question": new_q,
+                "answer": new_a
+            }
+
+        return redirect(url_for('admin'))
+
+    item = learned_data[index]
+    return f"""
+        <h2>Edit</h2>
+        <form method="post">
+            Question: <input type="text" name="question" value="{item['question']}"><br>
+            Answer: <input type="text" name="answer" value="{item['answer']}"><br>
+            <button type="submit">Update</button>
+        </form>
+    """
+
+# 🔹 Delete Route
+@app.route('/delete/<int:index>')
+def delete(index):
+    if 0 <= index < len(learned_data):
+        learned_data.pop(index)
+
+    return redirect(url_for('admin'))
+
+# 🔹 Logout (simple redirect)
+@app.route('/logout')
+def logout():
+    return redirect(url_for('admin'))
+
+# 🔹 Home (optional)
+@app.route('/')
+def home():
+    return '<h2>Chatbot Running... Go to /admin</h2>'
+
+# 🔹 Run App
+if __name__ == '__main__':
+    app.run(debug=True)
