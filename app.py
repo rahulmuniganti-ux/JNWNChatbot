@@ -9,13 +9,12 @@ app = Flask(__name__)
 with open("intents.json") as file:
     intents = json.load(file)
 
-# Load learned data
+# Load learned data safely
 def load_learned_data():
-    try:
-        with open("learned.json") as file:
-            return json.load(file)
-    except:
+    if not os.path.exists("learned.json"):
         return {"learned": [], "pending": []}
+    with open("learned.json") as file:
+        return json.load(file)
 
 # Chatbot logic
 def chatbot_response(user_input):
@@ -33,7 +32,7 @@ def chatbot_response(user_input):
             if pattern.lower() in user_input:
                 return random.choice(intent["responses"])
 
-    # Unknown question → store for admin
+    # Store unknown questions
     if user_input not in data["pending"]:
         data["pending"].append(user_input)
         with open("learned.json", "w") as f:
@@ -41,18 +40,31 @@ def chatbot_response(user_input):
 
     return "Sorry, I don’t know. We will provide the answer soon."
 
-# Home route
+# Home page
 @app.route("/")
 def home():
     return render_template("index.html")
 
+# About page
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+# Admin page
+@app.route("/admin")
+def admin():
+    return render_template("admin.html")
+
 # Chat API
 @app.route("/chat", methods=["POST"])
 def chat():
-    user_message = request.json["message"]
-    response = chatbot_response(user_message)
-    return jsonify({"reply": response})
+    try:
+        user_message = request.json["message"]
+        response = chatbot_response(user_message)
+        return jsonify({"reply": response})
+    except Exception as e:
+        return jsonify({"reply": "Server error occurred"}), 500
 
-# Run app (VERY IMPORTANT for Render)
+# Run app (for Render)
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
