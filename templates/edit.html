@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Learned Answer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="admin-box">
+    <h2>Edit Learned Data</h2>
+    <form method="post">
+        <label>Question</label>
+        <input type="text" name="question" value="{{ item.question }}" required>
+        <label>Answer</label>
+        <input type="text" name="answer" value="{{ item.answer }}" required>
+        <br><br>
+        <button type="submit">Update</button>
+        <a href="/admin">Cancel</a>
+    </form>
+</div>
+
+</body>
+</html>
