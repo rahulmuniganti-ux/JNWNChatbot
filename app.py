@@ -51,9 +51,9 @@ def about():
     return render_template("about.html")
 
 # Admin page
-@app.route("/admin")
+@app.route('/admin', methods=['GET', 'POST'])
 def admin():
-    return render_template("admin.html")
+    return render_template('admin.html', pending=pending, learned=learned)
 
 # Chat API
 @app.route("/chat", methods=["POST"])
