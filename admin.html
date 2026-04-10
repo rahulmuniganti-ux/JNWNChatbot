@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="admin-box">
+    <h2>Admin Panel – Learned Data</h2>
+    <a href="/logout">Logout</a>
+
+    <h3>Pending Questions</h3>
+    <ul>
+    {% for q in pending %}
+        <li>
+            <form method="post">
+                <input type="hidden" name="question" value="{{ q }}">
+                <b>{{ q }}</b><br>
+                <input type="text" name="answer" placeholder="Enter answer" required>
+                <button type="submit">Teach</button>
+            </form>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <h3>Learned Data</h3>
+    <table>
+        <tr><th>Question</th><th>Answer</th><th>Actions</th></tr>
+        {% for item in learned %}
+        <tr>
+            <td>{{ item.question }}</td>
+            <td>{{ item.answer }}</td>
+            <td>
+                <a href="/edit/{{ loop.index0 }}">Edit</a> |
+                <a href="/delete/{{ loop.index0 }}" onclick="return confirm('Are you sure?')">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+
+</body>
+</html>

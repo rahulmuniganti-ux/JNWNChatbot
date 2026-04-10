@@ -1,0 +1,1617 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi","Hi.","Hello.", "hii", "hello", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hello! Welcome to JNTUH UCE Wanaparthy. How can I help you?",
+        "Hi! Ask me anything about UCEW college."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who created you?", "who build you?", "creator"],
+      "responses": [
+        "prathima, navya sri, rahul and bala raju created me."
+        
+      ]
+    },
+    {
+      "tag": "your name",
+      "patterns": ["who are you?", "what is your name?"],
+      "responses": [
+        "my name is college Assit.","I'm college Assit."
+        
+      ]
+    },
+    {
+      "tag": "college_name",
+      "patterns": ["college name", "name of college", "which college"],
+      "responses": [
+        "The college name is JNTUH University College of Engineering, Wanaparthy (UCEW)."
+      ]
+    },
+    {
+      "tag": "overview",
+      "patterns": ["about college", "college overview", "tell me about college"],
+      "responses": [
+        "JNTUH UCE Wanaparthy is a constituent government engineering college established in 2022 by the Government of Telangana under JNTUH.It aims to provide quality technical education and develop competent professionals. The institute is temporarily functioning at the Palamuru University PG Centre, and a permanent campus is planned. The college serves students from Telangana and nearby regions with modern engineering programs."
+      ]
+    },
+    {
+      "tag": "established",
+      "patterns": ["when established", "year of establishment", "when was college started"],
+      "responses": [
+        "JNTUH UCE Wanaparthy was established in the year 2022."
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": ["vision of college","vision of jntuh ucew"],
+      "responses": [
+        "To emerge as a centre for excellence that contributes to sustainable development in technical education while developing the total personality of students into responsible citizens and competent professionals."
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": ["mission"],
+      "responses": [
+        "To achieve excellence in technical education and innovation.", "To foster collaboration with industry and other academic institutions.", "To provide affordable, quality education to meet industry and societal needs.", "To create a conducive learning atmosphere that inspires creativity.", "To instill high standards of ethics, values, and accountability in students.."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": ["location", "area","address"],
+      "responses": [
+        "Narsingaipalli Village, Gopalpet Road, Wanaparthy District, Telangana - 509103, India."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["courses", "What courses are offered?","courses offered","branches", "departments", "programs offered"],
+      "responses": [
+        "The B.Tech programs offered are Civil Engineering(CE), Mechanical Engineering(ME), Electronic & Communication Engineering(ECE),Computer Science & Engineering (CSE), and Computer Science & Engineering (Artificial Intelligence & Machine Learning) (CSE(AI & ML)(CSM))."
+      ]
+    },
+    {
+      "tag": "intake",
+      "patterns": ["intake", "number of seats", "student intake"],
+      "responses": [
+        "Each branch has an intake of 60 students, with a total intake of 300 students."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["admission","What are the admission requirements?","admission requirement", "how to apply", "admission process"],
+      "responses": [
+      "Admissions are made through the state-level engineering entrance exam (e.g., TS EAPCET) followed by counseling and seat allotment as per the Government of Telangana rules."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": ["eligibility", "admission eligibility", "qualification"],
+      "responses": [
+        "Students must pass 10+2 with Mathematics, Physics, and Chemistry and qualify TS EAPCET."
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": ["principal", "who is principal"],
+      "responses": [
+        "The principal of UCEW is Dr. N. V. S. Raju."
+      ]
+    },
+    {
+      "tag": "vice_principal(vp)",
+      "patterns": ["vice principal", "who is vice principal","who is vp"],
+      "responses": [
+        "The vice principal is Dr. B. V. Ram Naresh Yadav."
+      ]
+    },
+    {
+      "tag": "campus",
+      "patterns": ["campus", "college campus", "location"],
+      "responses": [
+        "The college is temporarily functioning at Palamuru University PG Centre. A permanent campus is planned and almost ready."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel", "hostel facility", "hostel fees"],
+      "responses": [
+        "Hostel facilities are available separately for boys and girls.Hostel bill be generated for number of days the student is staying in the hostel. The approximate hostel and mess fee is ₹4000."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["facilities","campus facilities", "college facilities", "infrastructure","Tell me about campus facilities"],
+      "responses": [
+        "Facilities include classrooms, laboratories, library, Wi-Fi, training and placement guidance, and workshops."
+      ]
+    },
+    {
+      "tag": "examination",
+      "patterns": ["exams", "examination", "exam location"],
+      "responses": [
+        "Examinations are typically conducted at the temporary campus in Wanaparthy."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How do I contact the college?","contact","contact information", "email", "website", "How do I contact the college? ","college contact"],
+      "responses": [
+        "You can contact UCEW at principal-jntuhucew@jntuh.ac.in or visit https://ucew.jntuh.ac.in"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": ["events", "workshops", "activities"],
+      "responses": [
+        "The college conducts workshops, seminars, orientation programs, employability training, and cultural events."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["placements","What are the placement statistics", "placement", "placement information"],
+      "responses": [
+        "Top companies visit our campus every year and the college has a dedicated placement cell."
+      ]
+    },
+    {
+    "tag": "fee",
+      "patterns": ["fees", "tution fee", "college fee"],
+      "responses": [
+        "Tution fee is 50,000 plus special fee is added every year."
+      ]
+    },
+   {
+      "tag": "r18_cse_intro",
+      "patterns": [
+        "what is r18 cse",
+        "r18 computer science",
+        "r18 cse details",
+        "explain r18 cse",
+        "r18 regulation cse"
+      ],
+      "responses": [
+        "R18 CSE refers to the Computer Science and Engineering syllabus under JNTU Hyderabad regulations introduced in 2018."
+      ]
+    },
+    {
+      "tag": "r18_cse_first_year",
+      "patterns": [
+        "r18 cse first year subjects",
+        "1st year r18 cse syllabus",
+        "first year cse subjects r18"
+      ],
+      "responses": [
+        "R18 CSE 1st year subjects include Mathematics-I, Engineering Physics, Engineering Chemistry, Programming for Problem Solving, Engineering Drawing, English, Basic Electrical and Mechanical Engineering along with labs."
+      ]
+    },
+    {
+      "tag": "r18_cse_second_year_first_sem",
+      "patterns": [
+        "r18 cse 2-1 subjects",
+        "second year first semester r18 cse",
+        "2-1 cse syllabus r18"
+      ],
+      "responses": [
+        "R18 CSE 2-1 subjects are Mathematics-III, Digital Logic Design, Data Structures, Computer Organization, Object Oriented Programming (Java) and related labs."
+      ]
+    },
+    {
+      "tag": "r18_cse_second_year_second_sem",
+      "patterns": [
+        "r18 cse 2-2 subjects",
+        "second year second semester r18 cse",
+        "2-2 cse syllabus r18"
+      ],
+      "responses": [
+        "R18 CSE 2-2 subjects include Probability and Statistics, DBMS, Operating Systems, FLAT, Software Engineering and labs."
+      ]
+    },
+    {
+      "tag": "r18_cse_third_year_first_sem",
+      "patterns": [
+        "r18 cse 3-1 subjects",
+        "third year first semester r18 cse",
+        "3-1 cse syllabus r18"
+      ],
+      "responses": [
+        "R18 CSE 3-1 subjects are Compiler Design, Computer Networks, Design and Analysis of Algorithms, Web Technologies, and one elective."
+      ]
+    },
+    {
+      "tag": "r18_cse_third_year_second_sem",
+      "patterns": [
+        "r18 cse 3-2 subjects",
+        "third year second semester r18 cse",
+        "3-2 cse syllabus r18"
+      ],
+      "responses": [
+        "R18 CSE 3-2 subjects include Machine Learning, Data Mining, Cryptography and Network Security along with electives and labs."
+      ]
+    },
+    {
+      "tag": "r18_cse_fourth_year",
+      "patterns": [
+        "r18 cse final year subjects",
+        "4th year r18 cse syllabus",
+        "r18 cse project"
+      ],
+      "responses": [
+        "R18 CSE final year includes Cloud Computing, Big Data Analytics, electives, Project Phase-I, Project Phase-II and Seminar."
+      ]
+    },
+    {
+      "tag": "r18_cse_evaluation",
+      "patterns": [
+        "r18 cse evaluation",
+        "r18 cse exam pattern",
+        "internal external marks r18"
+      ],
+      "responses": [
+        "R18 CSE follows a credit-based system with 70% external examination and 30% internal assessment."
+      ]
+    
+    },
+   {
+     "tag": "r18_csm_intro",
+      "patterns": [
+        "what is r18 csm",
+        "r18 csm",
+        "r18 computer science machine learning",
+        "csm r18 details",
+        "explain r18 csm"
+      ],
+      "responses": [
+        "R18 CSM stands for Computer Science and Engineering with specialization in Machine Learning, introduced by JNTU Hyderabad in 2018."
+      ]
+    },
+    {
+      "tag": "r18_csm_first_year",
+      "patterns": [
+        "r18 csm first year subjects",
+        "1st year csm r18 syllabus",
+        "csm first year r18"
+      ],
+      "responses": [
+        "R18 CSM first year is common for all branches and includes Mathematics-I, Engineering Physics, Engineering Chemistry, Programming for Problem Solving, Engineering Drawing, English, and Basic Electrical & Mechanical Engineering."
+      ]
+    },
+    {
+      "tag": "r18_csm_second_year_first_sem",
+      "patterns": [
+        "r18 csm 2-1 subjects",
+        "second year first semester csm r18",
+        "csm 2-1 syllabus"
+      ],
+      "responses": [
+        "R18 CSM 2-1 subjects include Mathematics-III, Data Structures, Digital Logic Design, Computer Organization, and Object Oriented Programming using Java."
+      ]
+    },
+    {
+      "tag": "r18_csm_second_year_second_sem",
+      "patterns": [
+        "r18 csm 2-2 subjects",
+        "second year second semester csm r18",
+        "csm 2-2 syllabus"
+      ],
+      "responses": [
+        "R18 CSM 2-2 subjects include Probability and Statistics, Database Management Systems, Operating Systems, Software Engineering, and Automata Theory."
+      ]
+    },
+    {
+      "tag": "r18_csm_third_year_first_sem",
+      "patterns": [
+        "r18 csm 3-1 subjects",
+        "third year first semester csm r18",
+        "csm 3-1 syllabus"
+      ],
+      "responses": [
+        "R18 CSM 3-1 subjects include Machine Learning, Design and Analysis of Algorithms, Computer Networks, Web Technologies, and one professional elective."
+      ]
+    },
+    {
+      "tag": "r18_csm_third_year_second_sem",
+      "patterns": [
+        "r18 csm 3-2 subjects",
+        "third year second semester csm r18",
+        "csm 3-2 syllabus"
+      ],
+      "responses": [
+        "R18 CSM 3-2 subjects include Artificial Intelligence, Data Mining, Cryptography and Network Security, along with professional electives and labs."
+      ]
+    },
+    {
+      "tag": "r18_csm_final_year",
+      "patterns": [
+        "r18 csm final year",
+        "csm 4th year r18 syllabus",
+        "r18 csm project"
+      ],
+      "responses": [
+        "R18 CSM final year includes Cloud Computing, Big Data Analytics, professional electives, Project Phase-I, Project Phase-II, and Seminar."
+      ]
+    },
+    {
+      "tag": "r18_csm_exam_pattern",
+      "patterns": [
+        "r18 csm exam pattern",
+        "r18 csm evaluation",
+        "internal external marks csm"
+      ],
+      "responses": [
+        "R18 CSM follows a credit-based evaluation system with 70 percent external examination and 30 percent internal assessment."
+      ]
+    },
+    {
+      "tag": "r18_csm_career",
+      "patterns": [
+        "career options in csm",
+        "jobs after r18 csm",
+        "future scope of csm"
+      ],
+      "responses": [
+        "CSM graduates can work as Machine Learning Engineers, Data Scientists, AI Engineers, Software Developers, or pursue higher studies like M.Tech or MS."
+      ]
+    },
+    {
+      "tag": "r18_ece_intro",
+      "patterns": [
+        "what is r18 ece",
+        "r18 ece",
+        "r18 electronics and communication",
+        "ece r18 details",
+        "explain r18 ece"
+      ],
+      "responses": [
+        "R18 ECE refers to the Electronics and Communication Engineering syllabus under JNTU Hyderabad regulations introduced in 2018."
+      ]
+    },
+    {
+      "tag": "r18_ece_first_year",
+      "patterns": [
+        "r18 ece first year subjects",
+        "1st year ece r18 syllabus",
+        "ece first year r18"
+      ],
+      "responses": [
+        "R18 ECE first year is common for all branches and includes Mathematics-I, Engineering Physics, Engineering Chemistry, Programming for Problem Solving, Engineering Drawing, English, and Basic Electrical & Mechanical Engineering."
+      ]
+    },
+    {
+      "tag": "r18_ece_second_year_first_sem",
+      "patterns": [
+        "r18 ece 2-1 subjects",
+        "second year first semester ece r18",
+        "ece 2-1 syllabus r18"
+      ],
+      "responses": [
+        "R18 ECE 2-1 subjects include Mathematics-III, Network Theory, Electronic Devices and Circuits, Digital Logic Design, Signals and Systems, along with related labs."
+      ]
+    },
+    {
+      "tag": "r18_ece_second_year_second_sem",
+      "patterns": [
+        "r18 ece 2-2 subjects",
+        "second year second semester ece r18",
+        "ece 2-2 syllabus r18"
+      ],
+      "responses": [
+        "R18 ECE 2-2 subjects include Probability and Random Processes, Analog Communications, Linear IC Applications, Control Systems, and labs."
+      ]
+    },
+    {
+      "tag": "r18_ece_third_year_first_sem",
+      "patterns": [
+        "r18 ece 3-1 subjects",
+        "third year first semester ece r18",
+        "ece 3-1 syllabus r18"
+      ],
+      "responses": [
+        "R18 ECE 3-1 subjects include Digital Communications, Microprocessors and Microcontrollers, Electromagnetic Fields, Computer Networks, and one professional elective."
+      ]
+    },
+    {
+      "tag": "r18_ece_third_year_second_sem",
+      "patterns": [
+        "r18 ece 3-2 subjects",
+        "third year second semester ece r18",
+        "ece 3-2 syllabus r18"
+      ],
+      "responses": [
+        "R18 ECE 3-2 subjects include VLSI Design, Embedded Systems, Antennas and Wave Propagation, Optical Communications, along with electives and labs."
+      ]
+    },
+    {
+      "tag": "r18_ece_final_year",
+      "patterns": [
+        "r18 ece final year",
+        "ece 4th year r18 syllabus",
+        "r18 ece project"
+      ],
+      "responses": [
+        "R18 ECE final year includes professional electives, Open Elective, Project Phase-I, Project Phase-II, and Seminar."
+      ]
+    },
+    {
+      "tag": "r18_ece_exam_pattern",
+      "patterns": [
+        "r18 ece exam pattern",
+        "r18 ece evaluation",
+        "internal external marks ece"
+      ],
+      "responses": [
+        "R18 ECE follows a credit-based evaluation system with 70 percent external examination and 30 percent internal assessment."
+      ]
+    },
+    {
+      "tag": "r18_ece_career",
+      "patterns": [
+        "career options in ece",
+        "jobs after r18 ece",
+        "future scope of ece"
+      ],
+      "responses": [
+        "ECE graduates can work as Electronics Engineers, Communication Engineers, VLSI Designers, Embedded Systems Developers, Network Engineers, or pursue higher studies."
+      ]
+    },
+    {
+      "tag": "r18_civil_intro",
+      "patterns": [
+        "what is r18 civil",
+        "r18 civil",
+        "r18 civil engineering",
+        "civil r18 details",
+        "explain r18 civil"
+      ],
+      "responses": [
+        "R18 Civil Engineering refers to the Civil Engineering syllabus under JNTU Hyderabad regulations introduced in 2018."
+      ]
+    },
+    {
+      "tag": "r18_civil_first_year",
+      "patterns": [
+        "r18 civil first year subjects",
+        "1st year civil r18 syllabus",
+        "civil first year r18"
+      ],
+      "responses": [
+        "R18 Civil first year is common for all branches and includes Mathematics-I, Engineering Physics, Engineering Chemistry, Programming for Problem Solving, Engineering Drawing, English, and Basic Electrical & Mechanical Engineering."
+      ]
+    },
+    {
+      "tag": "r18_civil_second_year_first_sem",
+      "patterns": [
+        "r18 civil 2-1 subjects",
+        "second year first semester civil r18",
+        "civil 2-1 syllabus r18"
+      ],
+      "responses": [
+        "R18 Civil 2-1 subjects include Mathematics-III, Engineering Mechanics, Strength of Materials, Surveying, and Building Materials & Construction."
+      ]
+    },
+    {
+      "tag": "r18_civil_second_year_second_sem",
+      "patterns": [
+        "r18 civil 2-2 subjects",
+        "second year second semester civil r18",
+        "civil 2-2 syllabus r18"
+      ],
+      "responses": [
+        "R18 Civil 2-2 subjects include Structural Analysis, Concrete Technology, Geotechnical Engineering-I, Environmental Engineering-I, and labs."
+      ]
+    },
+    {
+      "tag": "r18_civil_third_year_first_sem",
+      "patterns": [
+        "r18 civil 3-1 subjects",
+        "third year first semester civil r18",
+        "civil 3-1 syllabus r18"
+      ],
+      "responses": [
+        "R18 Civil 3-1 subjects include Design of Reinforced Concrete Structures, Geotechnical Engineering-II, Transportation Engineering-I, and Water Resources Engineering-I."
+      ]
+    },
+    {
+      "tag": "r18_civil_third_year_second_sem",
+      "patterns": [
+        "r18 civil 3-2 subjects",
+        "third year second semester civil r18",
+        "civil 3-2 syllabus r18"
+      ],
+      "responses": [
+        "R18 Civil 3-2 subjects include Structural Steel Design, Transportation Engineering-II, Environmental Engineering-II, Water Resources Engineering-II, and electives."
+      ]
+    },
+    {
+      "tag": "r18_civil_final_year",
+      "patterns": [
+        "r18 civil final year",
+        "civil 4th year r18 syllabus",
+        "r18 civil project"
+      ],
+      "responses": [
+        "R18 Civil final year includes professional electives, Open Elective, Project Phase-I, Project Phase-II, and Seminar."
+      ]
+    },
+    {
+      "tag": "r18_civil_exam_pattern",
+      "patterns": [
+        "r18 civil exam pattern",
+        "r18 civil evaluation",
+        "internal external marks civil"
+      ],
+      "responses": [
+        "R18 Civil follows a credit-based evaluation system with 70 percent external examination and 30 percent internal assessment."
+      ]
+    },
+    {
+      "tag": "r18_civil_career",
+      "patterns": [
+        "career options in civil",
+        "jobs after r18 civil",
+        "future scope of civil engineering"
+      ],
+      "responses": [
+        "Civil Engineering graduates can work as Site Engineers, Structural Engineers, Planning Engineers, Government Engineers, or pursue higher studies like M.Tech or competitive exams."
+      ]
+    },
+    {
+      "tag": "r18_mech_intro",
+      "patterns": [
+        "what is r18 mechanical",
+        "r18 mechanical",
+        "r18 mech",
+        "mechanical r18 details",
+        "explain r18 mechanical"
+      ],
+      "responses": [
+        "R18 Mechanical Engineering refers to the Mechanical Engineering syllabus under JNTU Hyderabad regulations introduced in 2018."
+      ]
+    },
+    {
+      "tag": "r18_mech_first_year",
+      "patterns": [
+        "r18 mechanical first year subjects",
+        "1st year mechanical r18 syllabus",
+        "mechanical first year r18"
+      ],
+      "responses": [
+        "R18 Mechanical first year is common for all branches and includes Mathematics-I, Engineering Physics, Engineering Chemistry, Programming for Problem Solving, Engineering Drawing, English, and Basic Electrical & Mechanical Engineering."
+      ]
+    },
+    {
+      "tag": "r18_mech_second_year_first_sem",
+      "patterns": [
+        "r18 mechanical 2-1 subjects",
+        "second year first semester mechanical r18",
+        "mechanical 2-1 syllabus r18"
+      ],
+      "responses": [
+        "R18 Mechanical 2-1 subjects include Mathematics-III, Engineering Mechanics, Strength of Materials, Thermodynamics, and Manufacturing Processes."
+      ]
+    },
+    {
+      "tag": "r18_mech_second_year_second_sem",
+      "patterns": [
+        "r18 mechanical 2-2 subjects",
+        "second year second semester mechanical r18",
+        "mechanical 2-2 syllabus r18"
+      ],
+      "responses": [
+        "R18 Mechanical 2-2 subjects include Fluid Mechanics, Kinematics of Machinery, Metal Cutting & Machine Tools, and Electrical & Electronics Engineering."
+      ]
+    },
+    {
+      "tag": "r18_mech_third_year_first_sem",
+      "patterns": [
+        "r18 mechanical 3-1 subjects",
+        "third year first semester mechanical r18",
+        "mechanical 3-1 syllabus r18"
+      ],
+      "responses": [
+        "R18 Mechanical 3-1 subjects include Dynamics of Machinery, Design of Machine Members-I, Heat Transfer, and Metrology & Measurements."
+      ]
+    },
+    {
+      "tag": "r18_mech_third_year_second_sem",
+      "patterns": [
+        "r18 mechanical 3-2 subjects",
+        "third year second semester mechanical r18",
+        "mechanical 3-2 syllabus r18"
+      ],
+      "responses": [
+        "R18 Mechanical 3-2 subjects include Design of Machine Members-II, CAD/CAM, Refrigeration & Air Conditioning, and professional electives."
+      ]
+    },
+    {
+      "tag": "r18_mech_final_year",
+      "patterns": [
+        "r18 mechanical final year",
+        "mechanical 4th year r18 syllabus",
+        "r18 mechanical project"
+      ],
+      "responses": [
+        "R18 Mechanical final year includes professional electives, Open Elective, Project Phase-I, Project Phase-II, and Seminar."
+      ]
+    },
+    {
+      "tag": "r18_mech_exam_pattern",
+      "patterns": [
+        "r18 mechanical exam pattern",
+        "r18 mechanical evaluation",
+        "internal external marks mechanical"
+      ],
+      "responses": [
+        "R18 Mechanical follows a credit-based evaluation system with 70 percent external examination and 30 percent internal assessment."
+      ]
+    },
+    {
+      "tag": "r18_mech_career",
+      "patterns": [
+        "career options in mechanical",
+        "jobs after r18 mechanical",
+        "future scope of mechanical engineering"
+      ],
+      "responses": [
+        "Mechanical Engineering graduates can work as Design Engineers, Production Engineers, Quality Engineers, Maintenance Engineers, or pursue higher studies and government exams."
+      ]
+    },
+    {
+      "tag": "r22_cse_intro",
+      "patterns": [
+        "what is r22 cse",
+        "r22 cse",
+        "r22 computer science",
+        "cse r22 details",
+        "explain r22 cse"
+      ],
+      "responses": [
+        "R22 CSE refers to the Computer Science and Engineering syllabus under JNTU Hyderabad regulations introduced in 2022."
+      ]
+    },
+    {
+      "tag": "r22_cse_first_year",
+      "patterns": [
+        "r22 cse first year subjects",
+        "1st year cse r22 syllabus",
+        "cse first year r22"
+      ],
+      "responses": [
+        "R22 CSE first year includes Mathematics-I, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, English, and Basic Electrical & Mechanical Engineering with labs."
+      ]
+    },
+    {
+      "tag": "r22_cse_second_year_first_sem",
+      "patterns": [
+        "r22 cse 2-1 subjects",
+        "second year first semester cse r22",
+        "cse 2-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 CSE 2-1 subjects include Discrete Mathematics, Data Structures, Digital Logic Design, Computer Organization, and Object Oriented Programming using Java."
+      ]
+    },
+    {
+      "tag": "r22_cse_second_year_second_sem",
+      "patterns": [
+        "r22 cse 2-2 subjects",
+        "second year second semester cse r22",
+        "cse 2-2 syllabus r22"
+      ],
+      "responses": [
+        "R22 CSE 2-2 subjects include Probability and Statistics, Database Management Systems, Operating Systems, Software Engineering, and Professional Ethics."
+      ]
+    },
+    {
+      "tag": "r22_cse_third_year_first_sem",
+      "patterns": [
+        "r22 cse 3-1 subjects",
+        "third year first semester cse r22",
+        "cse 3-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 CSE 3-1 subjects include Design and Analysis of Algorithms, Computer Networks, Web Technologies, Artificial Intelligence, and one professional elective."
+      ]
+    },
+    {
+      "tag": "r22_cse_third_year_second_sem",
+      "patterns": [
+        "r22 cse 3-2 subjects",
+        "third year second semester cse r22",
+        "cse 3-2 syllabus r22"
+      ],
+      "responses": [
+        "R22 CSE 3-2 subjects include Machine Learning, Data Mining, Cryptography and Network Security, along with professional electives and labs."
+      ]
+    },
+    {
+      "tag": "r22_cse_final_year",
+      "patterns": [
+        "r22 cse final year",
+        "cse 4th year r22 syllabus",
+        "r22 cse project"
+      ],
+      "responses": [
+        "R22 CSE final year includes professional electives, open elective, Project Phase-I, Project Phase-II, and internship or seminar."
+      ]
+    },
+    {
+      "tag": "r22_cse_exam_pattern",
+      "patterns": [
+        "r22 cse exam pattern",
+        "r22 cse evaluation",
+        "internal external marks r22 cse"
+      ],
+      "responses": [
+        "R22 CSE follows an outcome-based education system with 70 percent external examination and 30 percent internal assessment."
+      ]
+    },
+    {
+      "tag": "r22_cse_career",
+      "patterns": [
+        "career options in r22 cse",
+        "jobs after r22 cse",
+        "future scope of r22 cse"
+      ],
+      "responses": [
+        "R22 CSE graduates can work as Software Engineers, Data Scientists, AI Engineers, Cloud Engineers, Cyber Security Analysts, or pursue higher studies like M.Tech, MS, or MBA."
+      ]
+    },
+    {
+      "tag": "r22_csm_intro",
+      "patterns": [
+        "what is r22 csm",
+        "r22 csm",
+        "r22 computer science machine learning",
+        "csm r22 details",
+        "explain r22 csm"
+      ],
+      "responses": [
+        "R22 CSM stands for Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning, introduced by JNTU Hyderabad in 2022."
+      ]
+    },
+    {
+      "tag": "r22_csm_first_year",
+      "patterns": [
+        "r22 csm first year subjects",
+        "1st year csm r22 syllabus",
+        "csm first year r22"
+      ],
+      "responses": [
+        "R22 CSM first year includes Mathematics-I(matrices and calculus), Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, English, and Basic Electrical & Mechanical Engineering with labs."
+      ]
+    },
+    {
+      "tag": "r22_csm_second_year_first_sem",
+      "patterns": [
+        "r22 csm 2-1 subjects",
+        "second year first semester csm r22",
+        "csm 2-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 CSM 2-1 subjects include Mathematical and satastical foundations, Data Structures, Computer Organization,Software Engineering,Operating System, Intoduction to data structure lab, Operating system lab, Software engineering lab,Node JS and Object Constitution of India."
+      ]
+    },
+    {
+      "tag": "r22_csm_second_year_second_sem",
+      "patterns": [
+        "r22 csm 2-2 subjects",
+        "second year second semester csm r22",
+        "csm 2-2 syllabus r22"
+      ],
+      "responses": [
+        "R22 CSM 2-2 subjects include Discrete Mathematics, Automata Theory and Compiler Design, Database Management Systems, Introduction to Artificial Intelligence, Object Oriented Programming through Java, Database Management Systems Lab, Java Programming Lab, Real-time Research Project, Prolog Lab and Gender Sensitization Lab."
+      ]
+    },
+    {
+      "tag": "r22_csm_third_year_first_sem",
+      "patterns": [
+        "r22 csm 3-1 subjects",
+        "third year first semester csm r22",
+        "csm 3-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 CSM 3-1 subjects include Design and Analysis of Algorithms, Machine Learning, Computer Networks, Business Economics & Financial Analysis, professional elective-I Machine Learning Lab, Computer Networks Lab, Advanced English Communication Skills Lab, UI Design -Flutter, Intellectual Property Rights."
+      ]
+    },
+    {
+      "tag": "r22_csm_third_year_second_sem",
+      "patterns": [
+        "r22 csm 3-2 subjects",
+        "third year second semester csm r22",
+        "csm 3-2 syllabus r22"
+      ],
+      "responses": [
+        "R22 CSM 3-2 subjects include Knowledge Representation and Reasoning, Deep An, Data Mining, Cryptography and Network Security, along with professional electives and labs."
+      ]
+    },
+    {
+      "tag": "r22_csm_final_year",
+      "patterns": [
+        "r22 csm final year",
+        "csm 4th year r22 syllabus",
+        "r22 csm project"
+      ],
+      "responses": [
+        "R22 CSM final year includes professional electives, open elective, mandatory internship, Project Phase-I, Project Phase-II, and seminar."
+      ]
+    },
+    {
+      "tag": "r22_csm_exam_pattern",
+      "patterns": [
+        "r22 csm exam pattern",
+        "r22 csm evaluation",
+        "internal external marks r22 csm"
+      ],
+      "responses": [
+        "R22 CSM follows an outcome-based education system with 70 percent external examination and 30 percent internal assessment."
+      ]
+    },
+    {
+      "tag": "r22_csm_career",
+      "patterns": [
+        "career options in r22 csm",
+        "jobs after r22 csm",
+        "future scope of r22 csm"
+      ],
+      "responses": [
+        "R22 CSM graduates can work as AI Engineers, Machine Learning Engineers, Data Scientists, Software Developers, Cloud Engineers, or pursue higher studies like M.Tech or MS."
+      ]
+    },
+    {
+      "tag": "r22_ece_intro",
+      "patterns": [
+        "what is r22 ece",
+        "r22 ece",
+        "r22 electronics and communication",
+        "ece r22 details",
+        "explain r22 ece"
+      ],
+      "responses": [
+        "R22 ECE refers to the Electronics and Communication Engineering syllabus under JNTU Hyderabad regulations introduced in 2022."
+      ]
+    },
+    {
+      "tag": "r22_ece_first_year",
+      "patterns": [
+        "r22 ece first year subjects",
+        "1st year ece r22 syllabus",
+        "ece first year r22"
+      ],
+      "responses": [
+        "R22 ECE first year includes Mathematics-I, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, English, and Basic Electrical & Mechanical Engineering with labs."
+      ]
+    },
+    {
+      "tag": "r22_ece_second_year_first_sem",
+      "patterns": [
+        "r22 ece 2-1 subjects",
+        "second year first semester ece r22",
+        "ece 2-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 ECE 2-1 subjects include Mathematics-III, Network Theory, Electronic Devices and Circuits, Digital Logic Design, and Signals & Systems."
+      ]
+    },
+    {
+      "tag": "r22_ece_second_year_second_sem",
+      "patterns": [
+        "r22 ece 2-2 subjects",
+        "second year second semester ece r22",
+        "ece 2-2 syllabus r22"
+      ],
+      "responses": [
+        "R22 ECE 2-2 subjects include Probability and Random Processes, Analog Communications, Linear Integrated Circuits, Control Systems, and labs."
+      ]
+    },
+    {
+      "tag": "r22_ece_third_year_first_sem",
+      "patterns": [
+        "r22 ece 3-1 subjects",
+        "third year first semester ece r22",
+        "ece 3-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 ECE 3-1 subjects include Digital Communications, Microprocessors and Microcontrollers, Electromagnetic Fields, Computer Networks, and one professional elective."
+      ]
+    },
+    {
+      "tag": "r22_ece_third_year_second_sem",
+      "patterns": [
+        "r22 ece 3-2 subjects",
+        "third year second semester ece r22",
+        "ece 3-2 syllabus r22"
+      ],
+      "responses": [
+        "R22 ECE 3-2 subjects include VLSI Design, Embedded Systems, Antennas and Wave Propagation, Optical Communication, along with professional electives and labs."
+      ]
+    },
+    {
+      "tag": "r22_ece_final_year",
+      "patterns": [
+        "r22 ece final year",
+        "ece 4th year r22 syllabus",
+        "r22 ece project"
+      ],
+      "responses": [
+        "R22 ECE final year includes professional electives, open elective, mandatory internship, Project Phase-I, Project Phase-II, and seminar."
+      ]
+    },
+    {
+      "tag": "r22_ece_exam_pattern",
+      "patterns": [
+        "r22 ece exam pattern",
+        "r22 ece evaluation",
+        "internal external marks r22 ece"
+      ],
+      "responses": [
+        "R22 ECE follows an outcome-based education system with 70 percent external examination and 30 percent internal assessment."
+      ]
+    },
+    {
+      "tag": "r22_ece_career",
+      "patterns": [
+        "career options in r22 ece",
+        "jobs after r22 ece",
+        "future scope of r22 ece"
+      ],
+      "responses": [
+        "R22 ECE graduates can work as Electronics Engineers, Communication Engineers, VLSI Designers, Embedded Systems Engineers, Network Engineers, or pursue higher studies like M.Tech or MS."
+      ]
+    },
+    {
+  
+      "tag": "r22_civil_intro",
+      "patterns": [
+        "what is r22 civil",
+        "r22 civil",
+        "r22 civil engineering",
+        "civil r22 details",
+        "explain r22 civil"
+      ],
+      "responses": [
+        "R22 Civil Engineering refers to the Civil Engineering syllabus under JNTU Hyderabad regulations introduced in 2022."
+      ]
+    },
+    {
+      "tag": "r22_civil_first_year",
+      "patterns": [
+        "r22 civil first year subjects",
+        "1st year civil r22 syllabus",
+        "civil first year r22"
+      ],
+      "responses": [
+        "R22 Civil first year includes Mathematics-I, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, English, and Basic Electrical & Mechanical Engineering with labs."
+      ]
+    },
+    {
+      "tag": "r22_civil_second_year_first_sem",
+      "patterns": [
+        "r22 civil 2-1 subjects",
+        "second year first semester civil r22",
+        "civil 2-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 Civil 2-1 subjects include Mathematics-III, Engineering Mechanics, Strength of Materials, Surveying, and Building Materials & Construction."
+      ]
+    },
+    {
+      "tag": "r22_civil_second_year_second_sem",
+      "patterns": [
+        "r22 civil 2-2 subjects",
+        "second year second semester civil r22",
+        "civil 2-2 syllabus r22"
+      ],
+      "responses": [
+        "R22 Civil 2-2 subjects include Structural Analysis, Concrete Technology, Geotechnical Engineering-I, Environmental Engineering-I, and related labs."
+      ]
+    },
+    {
+      "tag": "r22_civil_third_year_first_sem",
+      "patterns": [
+        "r22 civil 3-1 subjects",
+        "third year first semester civil r22",
+        "civil 3-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 Civil 3-1 subjects include Design of Reinforced Concrete Structures, Geotechnical Engineering-II, Transportation Engineering-I, and Water Resources Engineering-I."
+      ]
+    },
+    {
+      "tag": "r22_civil_third_year_second_sem",
+      "patterns": [
+        "r22 civil 3-2 subjects",
+        "third year second semester civil r22",
+        "civil 3-2 syllabus r22"
+      ],
+      "responses": [
+        "R22 Civil 3-2 subjects include Structural Steel Design, Transportation Engineering-II, Environmental Engineering-II, Water Resources Engineering-II, along with professional electives."
+      ]
+    },
+    {
+      "tag": "r22_civil_final_year",
+      "patterns": [
+        "r22 civil final year",
+        "civil 4th year r22 syllabus",
+        "r22 civil project"
+      ],
+      "responses": [
+        "R22 Civil final year includes professional electives, open elective, mandatory internship, Project Phase-I, Project Phase-II, and seminar."
+      ]
+    },
+    {
+      "tag": "r22_civil_exam_pattern",
+      "patterns": [
+        "r22 civil exam pattern",
+        "r22 civil evaluation",
+        "internal external marks r22 civil"
+      ],
+      "responses": [
+        "R22 Civil follows an outcome-based education system with 70 percent external examination and 30 percent internal assessment."
+      ]
+    },
+    {
+      "tag": "r22_civil_career",
+      "patterns": [
+        "career options in r22 civil",
+        "jobs after r22 civil",
+        "future scope of r22 civil engineering"
+      ],
+      "responses": [
+        "R22 Civil Engineering graduates can work as Site Engineers, Structural Engineers, Planning Engineers, Quality Engineers, Government Engineers, or pursue higher studies like M.Tech or prepare for GATE and other competitive exams."
+      ]
+    
+    },
+    {
+  
+      "tag": "r22_mech_intro",
+      "patterns": [
+        "what is r22 mechanical",
+        "r22 mechanical",
+        "r22 mech",
+        "mechanical r22 details",
+        "explain r22 mechanical"
+      ],
+      "responses": [
+        "R22 Mechanical Engineering refers to the Mechanical Engineering syllabus under JNTU Hyderabad regulations introduced in 2022."
+      ]
+    },
+    {
+      "tag": "r22_mech_first_year",
+      "patterns": [
+        "r22 mechanical first year subjects",
+        "1st year mechanical r22 syllabus",
+        "mechanical first year r22"
+      ],
+      "responses": [
+        "R22 Mechanical first year includes Mathematics-I, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, English, and Basic Electrical & Mechanical Engineering with labs."
+      ]
+    },
+    {
+      "tag": "r22_mech_second_year_first_sem",
+      "patterns": [
+        "r22 mechanical 2-1 subjects",
+        "second year first semester mechanical r22",
+        "mechanical 2-1 syllabus r22"
+      ],
+      "responses": [
+        "R22 Mechanical 2-1 subjects include Mathematics-III, Engineering Mechanics, Strength of Materials, Thermodynamics, and Manufacturing Processes."
+      ]
+    },
+    {
+      "tag": "r25_cse_intro",
+      "patterns": [
+        "what is r25 cse",
+        "r25 cse",
+        "r25 computer science",
+        "cse r25 details",
+        "explain r25 cse"
+      ],
+      "responses": [
+        "R25 CSE refers to the Computer Science and Engineering program under JNTU Hyderabad regulations introduced in 2025, focusing on industry-oriented and skill-based learning."
+      ]
+    },
+    {
+      "tag": "r25_cse_first_year",
+      "patterns": [
+        "r25 cse first year subjects",
+        "1st year cse r25 syllabus",
+        "cse first year r25"
+      ],
+      "responses": [
+        "R25 CSE first year includes Mathematics, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, Communication Skills, and basic engineering labs."
+      ]
+    },
+    {
+      "tag": "r25_cse_second_year",
+      "patterns": [
+        "r25 cse second year subjects",
+        "2nd year cse r25 syllabus",
+        "cse r25 second year"
+      ],
+      "responses": [
+        "R25 CSE second year focuses on core computer science subjects such as Data Structures, Discrete Mathematics, Digital Logic Design, Computer Organization, Object Oriented Programming, DBMS, and Operating Systems."
+      ]
+    },
+    {
+      "tag": "r25_cse_third_year",
+      "patterns": [
+        "r25 cse third year subjects",
+        "3rd year cse r25 syllabus",
+        "cse r25 third year"
+      ],
+      "responses": [
+        "R25 CSE third year includes advanced subjects like Design and Analysis of Algorithms, Computer Networks, Software Engineering, Artificial Intelligence, Machine Learning, Web Technologies, and professional electives."
+      ]
+    },
+    {
+      "tag": "r25_cse_final_year",
+      "patterns": [
+        "r25 cse final year",
+        "4th year cse r25 syllabus",
+        "r25 cse project"
+      ],
+      "responses": [
+        "R25 CSE final year includes advanced electives, mandatory internship, major project work, seminar, and skill-based certifications."
+      ]
+    },
+    {
+      "tag": "r25_cse_exam_pattern",
+      "patterns": [
+        "r25 cse exam pattern",
+        "r25 cse evaluation",
+        "internal external marks r25"
+      ],
+      "responses": [
+        "R25 CSE follows an outcome-based education system with continuous internal assessment, end-semester examinations, and greater emphasis on projects and internships."
+      ]
+    },
+    {
+      "tag": "r25_cse_career",
+      "patterns": [
+        "career options in r25 cse",
+        "jobs after r25 cse",
+        "future scope of r25 cse"
+      ],
+      "responses": [
+        "R25 CSE graduates can pursue careers as Software Engineers, Full Stack Developers, Data Scientists, AI Engineers, Cloud Engineers, Cyber Security Analysts, or opt for higher studies and entrepreneurship."
+      ]
+    },
+    {
+      "tag": "r25_csm_intro",
+      "patterns": [
+        "what is r25 csm",
+        "r25 csm",
+        "r25 computer science machine learning",
+        "csm r25 details",
+        "explain r25 csm"
+      ],
+      "responses": [
+        "R25 CSM refers to Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning under JNTU Hyderabad regulations introduced in 2025."
+      ]
+    },
+    {
+      "tag": "r25_csm_first_year",
+      "patterns": [
+        "r25 csm first year subjects",
+        "1st year csm r25 syllabus",
+        "csm first year r25"
+      ],
+      "responses": [
+        "R25 CSM first year includes Mathematics, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, Communication Skills, and basic engineering labs."
+      ]
+    },
+    {
+      "tag": "r25_csm_second_year",
+      "patterns": [
+        "r25 csm second year subjects",
+        "2nd year csm r25 syllabus",
+        "csm r25 second year"
+      ],
+      "responses": [
+        "R25 CSM second year focuses on core computer science subjects such as Data Structures, Discrete Mathematics, Digital Logic Design, Computer Organization, Object Oriented Programming, Database Management Systems, and Operating Systems."
+      ]
+    },
+    {
+      "tag": "r25_csm_third_year",
+      "patterns": [
+        "r25 csm third year subjects",
+        "3rd year csm r25 syllabus",
+        "csm r25 third year"
+      ],
+      "responses": [
+        "R25 CSM third year includes Artificial Intelligence, Machine Learning, Deep Learning, Design and Analysis of Algorithms, Computer Networks, Web Technologies, Data Science, and professional electives."
+      ]
+    },
+    {
+      "tag": "r25_csm_final_year",
+      "patterns": [
+        "r25 csm final year",
+        "4th year csm r25 syllabus",
+        "r25 csm project"
+      ],
+      "responses": [
+        "R25 CSM final year includes advanced AI and ML electives, mandatory internship, major project work, seminar, and industry-oriented certifications."
+      ]
+    },
+    {
+      "tag": "r25_csm_exam_pattern",
+      "patterns": [
+        "r25 csm exam pattern",
+        "r25 csm evaluation",
+        "internal external marks r25 csm"
+      ],
+      "responses": [
+        "R25 CSM follows an outcome-based education system with continuous internal assessment, end-semester examinations, and strong emphasis on projects, internships, and skill development."
+      ]
+    },
+    {
+      "tag": "r25_csm_career",
+      "patterns": [
+        "career options in r25 csm",
+        "jobs after r25 csm",
+        "future scope of r25 csm"
+      ],
+      "responses": [
+        "R25 CSM graduates can work as AI Engineers, Machine Learning Engineers, Data Scientists, Software Developers, Cloud Engineers, or pursue higher studies, research, and entrepreneurship."
+     ]
+    },
+    {
+      "tag": "r25_ece_intro",
+      "patterns": [
+        "what is r25 ece",
+        "r25 ece",
+        "r25 electronics and communication",
+        "ece r25 details",
+        "explain r25 ece"
+      ],
+      "responses": [
+        "R25 ECE refers to the Electronics and Communication Engineering program under JNTU Hyderabad regulations introduced in 2025, focusing on modern communication and electronics technologies."
+      ]
+    },
+    {
+      "tag": "r25_ece_first_year",
+      "patterns": [
+        "r25 ece first year subjects",
+        "1st year ece r25 syllabus",
+        "ece first year r25"
+      ],
+      "responses": [
+        "R25 ECE first year includes Mathematics, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, Communication Skills, and basic engineering labs."
+      ]
+    },
+    {
+      "tag": "r25_ece_second_year",
+      "patterns": [
+        "r25 ece second year subjects",
+        "2nd year ece r25 syllabus",
+        "ece r25 second year"
+      ],
+      "responses": [
+        "R25 ECE second year covers core subjects such as Network Theory, Electronic Devices and Circuits, Digital Logic Design, Signals and Systems, Linear Integrated Circuits, Control Systems, and related labs."
+      ]
+    },
+    {
+      "tag": "r25_ece_third_year",
+      "patterns": [
+        "r25 ece third year subjects",
+        "3rd year ece r25 syllabus",
+        "ece r25 third year"
+      ],
+      "responses": [
+        "R25 ECE third year includes Digital Communications, Microprocessors & Microcontrollers, Electromagnetic Fields, VLSI Design, Embedded Systems, Optical Communication, and professional electives."
+      ]
+    },
+    {
+      "tag": "r25_ece_final_year",
+      "patterns": [
+        "r25 ece final year",
+        "4th year ece r25 syllabus",
+        "r25 ece project"
+      ],
+      "responses": [
+        "R25 ECE final year includes advanced electives, open elective, mandatory internship, Project Phase-I, Project Phase-II, seminar, and industry-oriented certifications."
+      ]
+    },
+    {
+      "tag": "r25_ece_exam_pattern",
+      "patterns": [
+        "r25 ece exam pattern",
+        "r25 ece evaluation",
+        "internal external marks r25 ece"
+      ],
+      "responses": [
+        "R25 ECE follows an outcome-based education system with continuous internal assessment, end-semester examinations, and emphasis on projects and internships."
+      ]
+    },
+    {
+      "tag": "r25_ece_career",
+      "patterns": [
+        "career options in r25 ece",
+        "jobs after r25 ece",
+        "future scope of r25 ece"
+      ],
+      "responses": [
+        "R25 ECE graduates can work as Electronics Engineers, Communication Engineers, Embedded Systems Engineers, VLSI Designers, Network Engineers, or pursue higher studies and research opportunities."
+      ]
+    },
+    {
+      "tag": "r25_civil_intro",
+      "patterns": [
+        "what is r25 civil",
+        "r25 civil",
+        "r25 civil engineering",
+        "civil r25 details",
+        "explain r25 civil"
+      ],
+      "responses": [
+        "R25 Civil Engineering refers to the Civil Engineering program under JNTU Hyderabad regulations introduced in 2025, focusing on modern construction techniques and infrastructure development."
+      ]
+    },
+    {
+      "tag": "r25_civil_first_year",
+      "patterns": [
+        "r25 civil first year subjects",
+        "1st year civil r25 syllabus",
+        "civil first year r25"
+      ],
+      "responses": [
+        "R25 Civil first year includes Mathematics, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, Communication Skills, and basic engineering labs."
+      ]
+    },
+    {
+      "tag": "r25_civil_second_year",
+      "patterns": [
+        "r25 civil second year subjects",
+        "2nd year civil r25 syllabus",
+        "civil r25 second year"
+      ],
+      "responses": [
+        "R25 Civil second year covers Engineering Mechanics, Strength of Materials, Surveying, Building Materials and Construction, and Geotechnical Engineering-I."
+      ]
+    },
+    {
+      "tag": "r25_civil_third_year",
+      "patterns": [
+        "r25 civil third year subjects",
+        "3rd year civil r25 syllabus",
+        "civil r25 third year"
+      ],
+      "responses": [
+        "R25 Civil third year includes Structural Analysis, Design of Reinforced Concrete Structures, Geotechnical Engineering-II, Transportation Engineering, Water Resources Engineering, and professional electives."
+      ]
+    },
+    {
+      "tag": "r25_civil_final_year",
+      "patterns": [
+        "r25 civil final year",
+        "4th year civil r25 syllabus",
+        "r25 civil project"
+      ],
+      "responses": [
+        "R25 Civil final year includes advanced professional electives, open elective, Project Phase-I, Project Phase-II, seminar, and mandatory internship."
+      ]
+    },
+    {
+      "tag": "r25_civil_exam_pattern",
+      "patterns": [
+        "r25 civil exam pattern",
+        "r25 civil evaluation",
+        "internal external marks r25 civil"
+      ],
+      "responses": [
+        "R25 Civil follows an outcome-based education system with continuous internal assessment, end-semester examinations, and strong emphasis on projects and internships."
+      ]
+    },
+    {
+      "tag": "r25_civil_career",
+      "patterns": [
+        "career options in r25 civil",
+        "jobs after r25 civil",
+        "future scope of r25 civil engineering"
+      ],
+      "responses": [
+        "R25 Civil graduates can work as Site Engineers, Structural Engineers, Planning Engineers, Quality Engineers, Government Engineers, or pursue higher studies like M.Tech, GATE, or competitive exams."
+      ]
+    },
+    {
+      "tag": "r25_mech_intro",
+      "patterns": [
+        "what is r25 mechanical",
+        "r25 mechanical",
+        "r25 mech",
+        "mechanical r25 details",
+        "explain r25 mechanical"
+      ],
+      "responses": [
+        "R25 Mechanical Engineering refers to the Mechanical Engineering program under JNTU Hyderabad regulations introduced in 2025, focusing on industry-oriented and skill-based learning."
+      ]
+    },
+    {
+      "tag": "r25_mech_first_year",
+      "patterns": [
+        "r25 mechanical first year subjects",
+        "1st year mechanical r25 syllabus",
+        "mechanical first year r25"
+      ],
+      "responses": [
+        "R25 Mechanical first year includes Mathematics, Applied Physics, Applied Chemistry, Programming for Problem Solving, Engineering Graphics, Communication Skills, and basic engineering labs."
+      ]
+    },
+    {
+      "tag": "r25_mech_second_year",
+      "patterns": [
+        "r25 mechanical second year subjects",
+        "2nd year mechanical r25 syllabus",
+        "mechanical r25 second year"
+      ],
+      "responses": [
+        "R25 Mechanical second year covers core subjects such as Engineering Mechanics, Strength of Materials, Thermodynamics, Manufacturing Processes, Fluid Mechanics, and Electrical & Electronics Engineering."
+      ]
+    },
+    {
+      "tag": "r25_mech_third_year",
+      "patterns": [
+        "r25 mechanical third year subjects",
+        "3rd year mechanical r25 syllabus",
+        "mechanical r25 third year"
+      ],
+      "responses": [
+        "R25 Mechanical third year includes advanced subjects like Heat Transfer, Design of Machine Elements, Dynamics of Machinery, CAD/CAM, Metrology, and professional electives."
+      ]
+    },
+    {
+      "tag": "r25_mech_final_year",
+      "patterns": [
+        "r25 mechanical final year",
+        "4th year mechanical r25 syllabus",
+        "r25 mechanical project"
+      ],
+      "responses": [
+        "R25 Mechanical final year includes advanced electives, mandatory internship, major project work, seminar, and industry-oriented skill certifications."
+      ]
+    },
+    {
+      "tag": "r25_mech_exam_pattern",
+      "patterns": [
+        "r25 mechanical exam pattern",
+        "r25 mechanical evaluation",
+        "internal external marks r25 mechanical"
+      ],
+      "responses": [
+        "R25 Mechanical follows an outcome-based education system with continuous internal assessment, end-semester examinations, and strong emphasis on projects and internships."
+      ]
+    },
+    {
+      "tag": "r25_mech_career",
+      "patterns": [
+        "career options in r25 mechanical",
+        "jobs after r25 mechanical",
+        "future scope of r25 mechanical engineering"
+      ],
+      "responses": [
+        "R25 Mechanical Engineering graduates can work as Design Engineers, Production Engineers, Quality Engineers, Maintenance Engineers, Automobile Engineers, or pursue higher studies, research, and government exams."
+      ]
+    },  
+    {
+      "tag": "faculty_subject_cse",
+      "patterns": [
+        "who teaches mathematics",
+        "faculty for programming",
+        "who teaches data structures",
+        "faculty for dbms",
+        "who teaches operating systems",
+        "who teaches algorithms",
+        "faculty for computer networks",
+        "who teaches artificial intelligence",
+        "faculty for machine learning",
+        "who teaches software engineering"
+      ],
+      "responses": [
+        "Mathematics-I and II are taught by prof.A Vinay Sri.",
+        "Programming for Problem Solving / Object Oriented Programming is taught by Prof. Asha Jyothi.",
+        "Data Structures is taught by Prof. V Swapna.",
+        "Database Management Systems (DBMS) is taught by Prof. C Naresh Sagar.",
+        "Operating Systems is taught by Prof.C Naresh Sagar .",
+        "Design and Analysis of Algorithms is taught by Prof. K Indraneel.",
+        "Computer Networks is taught by Prof. K Gattaiah.",
+        "Artificial Intelligence is taught by Prof.K Indraneel.",
+        "Machine Learning is taught by Prof. B Mahesh.",
+        "Software Engineering is taught by Prof. K Indraneel."
+      ]
+    },
+    {
+      "tag": "faculty_subject_csm",
+      "patterns": [
+        "who teaches ai",
+        "faculty for machine learning(ml)",
+        "who teaches deep learning",
+        "faculty for data science(ds)",
+        "who teaches python programming",
+        "who teaches object oriented programming"
+      ],
+      "responses": [
+        "ai: Artificial Intelligence is taught by Prof.Indraneel.",
+        "ml: Machine Learning is taught by Prof. B Mahesh.",
+        "deep learning : Deep Learning is taught by Prof. Anil Kumar.",
+        "ds: Data Science is taught by Prof. V swapna.",
+        "python : Python Programming is taught by Prof. Asha Jyothi.",
+        "Object Oriented Programming is taught by Prof. Asha Jyothi."
+      ]
+    },
+    {
+      "tag": "faculty_subject_ece",
+      "patterns": [
+        "who teaches network theory",
+        "faculty for digital logic design",
+        "who teaches signals and systems",
+        "faculty for vlsi design",
+        "who teaches embedded systems",
+        "who teaches NAS",
+        "faculty for communication systems"
+      ],
+      "responses": [
+        "Network Theory is taught by Prof. Ravi Teja.",
+        "Digital Logic Design is taught by Prof. G Nagaraju.",
+        "Signals and Systems is taught by Prof. K Naresh Kumar.",
+        "VLSI Design is taught by Prof. K Naresh Kumar .",
+        "Embedded Systems is taught by Prof. H Jyothi.",
+        "NAS is taught by Prof. H Jyothi.",
+        "Analog and Digital Communication is taught by Prof. K Balaramudu."
+      ]
+    },
+    {
+      "tag": "faculty_subject_civil",
+      "patterns": [
+        "who teaches engineering mechanics",
+        "faculty for strength of materials",
+        "who teaches surveying",
+        "faculty for concrete technology",
+        "who teaches geotechnical engineering",
+        "faculty for transportation engineering",
+        "who teaches water resources"
+      ],
+      "responses": [
+        "Engineering Mechanics is taught by Prof.H Jayappa .",
+        "Strength of Materials is taught by Prof. Ravi Teja.",
+        "Surveying is taught by Prof. Srikanth Kumar.",
+        "Concrete Technology is taught by Prof. Jyothi Priya.",
+        "Geotechnical Engineering is taught by Prof. Suresh Babu.",
+        "Transportation Engineering is taught by Prof. Ramesh Kumar.",
+        "Water Resources Engineering is taught by Prof. Bhargavi."
+      ]
+    },
+    {
+      "tag": "faculty_subject_mechanical",
+      "patterns": [
+        "who teaches thermodynamics",
+        "faculty for fluid mechanics",
+        "who teaches strength of materials",
+        "faculty for manufacturing processes",
+        "who teaches heat transfer",
+        "faculty for dynamics of machinery",
+        "who teaches cad cam"
+      ],
+      "responses": [
+        "Thermodynamics is taught by Prof. Asha Jyothi.",
+        "Fluid Mechanics is taught by Prof. Ravi Teja.",
+        "Strength of Materials is taught by Prof. Srikanth Kumar.",
+        "Manufacturing Processes is taught by Prof. Naga Raju.",
+        "Heat Transfer is taught by Prof. Lakshmi Priya.",
+        "Dynamics of Machinery is taught by Prof. Bhargavi.",
+        "CAD/CAM is taught by Prof. Suresh Babu."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "thank you", "thanks"],
+      "responses": [
+        "Thank you for contacting UCEW. Have a great day!",
+        "Goodbye! Feel free to ask if you have more questions."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "learned": [
+    {
+      "question": "hiii",
+      "answer": "Hello! how can I help you?"
+    },
+    {
+      "question": "courses offered.",
+      "answer": "\"The B.Tech programs offered are Civil Engineering(CE), Mechanical Engineering(ME), Electronic & Communication Engineering(ECE),Computer Science & Engineering (CSE), and Computer Science & Engineering (Artificial Intelligence & Machine Learning) (CSE(AI & ML)(CSM)).\"       "
+    },
+    {
+      "question": "courses.",
+      "answer": "\"The B.Tech programs offered are Civil Engineering(CE), Mechanical Engineering(ME), Electronic & Communication Engineering(ECE),Computer Science & Engineering (CSE), and Computer Science & Engineering (Artificial Intelligence & Machine Learning) (CSE(AI & ML)(CSM)).\"       "
+    },
+    {
+      "question": "branch.",
+      "answer": "\"The B.Tech programs offered are Civil Engineering(CE), Mechanical Engineering(ME), Electronic & Communication Engineering(ECE),Computer Science & Engineering (CSE), and Computer Science & Engineering (Artificial Intelligence & Machine Learning) (CSE(AI & ML)(CSM)).\"       "
+    },
+    {
+      "question": "department.",
+      "answer": "\"The B.Tech programs offered are Civil Engineering(CE), Mechanical Engineering(ME), Electronic & Communication Engineering(ECE),Computer Science & Engineering (CSE), and Computer Science & Engineering (Artificial Intelligence & Machine Learning) (CSE(AI & ML)(CSM)).\"       "
+    },
+    {
+      "question": "what are the placement statistics",
+      "answer": "\"Top companies visit our campus every year and the college has a dedicated placement cell.\"       "
+    },
+    {
+      "question": "what courses are offered",
+      "answer": "\"The B.Tech programs offered are Civil Engineering(CE), Mechanical Engineering(ME), Electronic & Communication Engineering(ECE),Computer Science & Engineering (CSE), and Computer Science & Engineering (Artificial Intelligence & Machine Learning) (CSE(AI & ML)(CSM)).\""
+    },
+    {
+      "question": "how do i contact the college",
+      "answer": "\"You can contact UCEW at principal-jntuhucew@jntuh.ac.in or visit https://ucew.jntuh.ac.in\"       "
+    },
+    {
+      "question": "what are the admission requirements",
+      "answer": "\"Admissions are made through the state-level engineering entrance exam (e.g., TS EAPCET) followed by counseling and seat allotment as per the Government of Telangana rules.\"       "
+    }
+  ],
+  "pending": [
+    "hello.",
+    "hi.",
+    "facilities.",
+    "department",
+    "braches",
+    "cours offered",
+    "cours",
+    "course",
+    "couses",
+    "hell",
+    "helo",
+    "hello. hello.",
+    "facilitirs",
+    "mine",
+    "facilit",
+    "cse r22 syllabus",
+    "whats about college"
+  ]
+}
