@@ -101,7 +101,7 @@ def login():
             session["admin"] = True
             return redirect(url_for("admin"))
         else:
-            return render_template("login", error="Invalid credentials")
+            return render_template("login.html", error="Invalid credentials")
     return render_template("login.html")
 
 @app.route("/logout")
