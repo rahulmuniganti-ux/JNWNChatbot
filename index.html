@@ -529,6 +529,95 @@
                 display: none;
             }
         }
+        /* ================= MOBILE FIX ================= */
+@media (max-width: 768px) {
+
+    .main-container {
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .chat-container {
+        padding: 15px;
+        border-radius: 16px;
+    }
+
+    /* Fix chat box height */
+    .chat-box {
+        height: 55vh;
+        min-height: unset;
+        padding: 10px;
+    }
+
+    /* Messages full width */
+    .bot-message, .user-message {
+        max-width: 90%;
+        font-size: 14px;
+    }
+
+    /* Hide emojis beside messages */
+    .bot-message::before,
+    .user-message::after {
+        display: none;
+    }
+
+    /* Input area stacking */
+    .input-box {
+        flex-wrap: wrap;
+        gap: 8px;
+        border-radius: 20px;
+    }
+
+    .user-input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .send {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .voice-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* Control buttons */
+    .input-box + div {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Suggestions buttons */
+    .suggestion-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    /* Modal fix */
+    .modal-content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .modal-content h2 {
+        font-size: 20px;
+    }
+
+    /* Logo smaller */
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Title */
+    .titlename {
+        font-size: 22px;
+    }
+}
     </style>
   <style>@view-transition { navigation: auto; }</style>
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
