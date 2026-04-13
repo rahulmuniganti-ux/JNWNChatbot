@@ -1497,121 +1497,858 @@
       ]
     },  
     {
-      "tag": "faculty_subject_cse",
+  "tag": "faculty_matrices_calculus",
+  "patterns": [
+    "who teaches matrices and calculus",
+    "maths 2 faculty name",
+    "calculus teacher",
+    "who handles matrices subject",
+    "faculty for calculus",
+    "maths professor",
+    "who teaches engineering mathematics 2"
+  ],
+  "responses": [
+    "Matrices and Calculus is taught by Prof. A Vinaya Sri."
+  ]
+  },
+  {
+  "tag": "faculty_applied_physics",
+  "patterns": [
+    "who teaches applied physics",
+    "physics faculty name",
+    "applied physics teacher",
+    "who handles physics subject",
+    "faculty for physics",
+    "physics professor",
+    "who teaches engineering physics"
+  ],
+  "responses": [
+    "Applied Physics is taught by Prof. G Chandraiah."
+  ]
+},
+{
+  "tag": "faculty_programming_pps",
+  "patterns": [
+    "who teaches programming for problem solving",
+    "pps faculty name",
+    "programming teacher",
+    "who handles pps subject",
+    "faculty for programming",
+    "pps professor",
+    "who teaches coding basics"
+  ],
+  "responses": [
+    "Programming for Problem Solving is taught by Prof. C Naresh Sagar."
+  ]
+},
+{
+  "tag": "faculty_engineering_workshop",
+  "patterns": [
+    "who teaches engineering workshop",
+    "engineering workshop faculty",
+    "workshop teacher name",
+    "who handles workshop subject",
+    "faculty for engineering workshop",
+    "workshop professor",
+    "who teaches workshop lab"
+  ],
+  "responses": [
+    "Engineering Workshop is taught by Prof. [Your Faculty Name]."
+  ]
+},
+{
+  "tag": "faculty_english_skill",
+  "patterns": [
+    "who teaches english for skill enhancement",
+    "english faculty name",
+    "communication skills teacher",
+    "who handles english subject",
+    "faculty for english",
+    "english professor",
+    "who teaches communication skills"
+  ],
+  "responses": [
+    "English for Skill Enhancement is taught by Prof. G Govind."
+  ]
+},
+{
+  "tag": "faculty_ecse",
+  "patterns": [
+    "who teaches elements of computer science and engineering",
+    "ecse faculty name",
+    "computer science basics teacher",
+    "who handles ecse subject",
+    "faculty for computer science basics",
+    "ecse professor",
+    "who teaches computer fundamentals"
+  ],
+  "responses": [
+    "Elements of Computer Science and Engineering is taught by Prof. B V Ram Naresh Yadav."
+  ]
+},
+{
+  "tag": "faculty_applied_physics_lab",
+  "patterns": [
+    "who teaches applied physics lab",
+    "physics lab faculty",
+    "applied physics practical teacher",
+    "who handles physics lab",
+    "faculty for physics lab",
+    "physics lab professor",
+    "who teaches physics experiments"
+  ],
+  "responses": [
+    "Applied Physics Lab is handled by Prof. G Chandraiah."
+  ]
+},
+{
+  "tag": "faculty_elcs_lab",
+  "patterns": [
+    "who teaches english language and communication skills lab",
+    "elcs lab faculty",
+    "english lab teacher",
+    "who handles elcs lab",
+    "faculty for english lab",
+    "elcs professor",
+    "who teaches communication lab"
+  ],
+  "responses": [
+    "English Language and Communication Skills Lab is handled by Prof. G Goivnd."
+  ]
+},
+{
+  "tag": "faculty_environment_science",
+  "patterns": [
+    "who teaches environment science",
+    "evs faculty name",
+    "environment teacher",
+    "who handles evs subject",
+    "faculty for environmental science",
+    "evs professor",
+    "who teaches environmental studies"
+  ],
+  "responses": [
+    "Environmental Science is taught by Prof. G Nirmala."
+  ]
+},
+{
+  "tag": "faculty_ode_vector_calculus",
+  "patterns": [
+    "who teaches ordinary differential equations",
+    "ode faculty name",
+    "vector calculus teacher",
+    "who handles ode subject",
+    "faculty for differential equations",
+    "ode professor",
+    "who teaches vector calculus"
+  ],
+  "responses": [
+    "Ordinary Differential Equations and Vector Calculus is taught by Prof. A Vinaya Sri."
+  ]
+},
+{
+  "tag": "faculty_engineering_chemistry",
+  "patterns": [
+    "who teaches engineering chemistry",
+    "chemistry faculty name",
+    "engineering chemistry teacher",
+    "who handles chemistry subject",
+    "faculty for chemistry",
+    "chemistry professor",
+    "who teaches applied chemistry"
+  ],
+  "responses": [
+    "Engineering Chemistry is taught by Prof. P Bheemudu."
+  ]
+},
+{
+  "tag": "faculty_caeg",
+  "patterns": [
+    "who teaches computer aided engineering graphics",
+    "cag faculty name",
+    "graphics teacher",
+    "who handles cag subject",
+    "faculty for computer graphics",
+    "cag professor",
+    "who teaches computer aided drawing"
+  ],
+  "responses": [
+    "Computer Aided Engineering Graphics is taught by Prof. M Srihari."
+  ]
+},
+{
+  "tag": "faculty_basic_electrical",
+  "patterns": [
+    "who teaches basic electrical engineering",
+    "bee faculty name",
+    "electrical teacher",
+    "who handles bee subject",
+    "faculty for electrical engineering",
+    "bee professor",
+    "who teaches electrical basics"
+  ],
+  "responses": [
+    "Basic Electrical Engineering is taught by Prof. G Kavya."
+  ]
+},
+{
+  "tag": "faculty_edc",
+  "patterns": [
+    "who teaches electronic devices and circuits",
+    "edc faculty name",
+    "electronics teacher",
+    "who handles edc subject",
+    "faculty for electronics",
+    "edc professor",
+    "who teaches electronic circuits"
+  ],
+  "responses": [
+    "Electronic Devices and Circuits is taught by Prof. A Maheswari."
+  ]
+},
+{
+  "tag": "faculty_python_programming",
+  "patterns": [
+    "who teaches python programming",
+    "python faculty name",
+    "python teacher",
+    "who handles python subject",
+    "faculty for python",
+    "python professor",
+    "who teaches python coding"
+  ],
+  "responses": [
+    "Python Programming is taught by Prof. Ch Asha Jyothi."
+  ]
+},
+{
+  "tag": "faculty_python_lab",
+  "patterns": [
+    "who teaches python programming lab",
+    "python lab faculty",
+    "python practical teacher",
+    "who handles python lab",
+    "faculty for python lab",
+    "python lab professor",
+    "who teaches python experiments"
+  ],
+  "responses": [
+    "Python Programming Lab is handled by Prof. Ch Asha Jyothi."
+  ]
+},
+{
+  "tag": "faculty_chemistry_lab",
+  "patterns": [
+    "who teaches engineering chemistry lab",
+    "chemistry lab faculty",
+    "chemistry practical teacher",
+    "who handles chemistry lab",
+    "faculty for chemistry lab",
+    "chemistry lab professor",
+    "who teaches chemistry experiments"
+  ],
+  "responses": [
+    "Engineering Chemistry Lab is handled by Prof. P Bheemudu."
+  ]
+},
+{
+  "tag": "faculty_bee_lab",
+  "patterns": [
+    "who teaches basic electrical engineering lab",
+    "bee lab faculty",
+    "electrical lab teacher",
+    "who handles bee lab",
+    "faculty for electrical lab",
+    "bee lab professor",
+    "who teaches electrical experiments"
+  ],
+  "responses": [
+    "Basic Electrical Engineering Lab is handled by Prof. G Kavya."
+  ]
+},
+{
+  "tag": "faculty_it_workshop",
+  "patterns": [
+    "who teaches it workshop",
+    "it workshop faculty",
+    "it lab teacher",
+    "who handles it workshop subject",
+    "faculty for it lab",
+    "it workshop professor",
+    "who teaches computer lab basics"
+  ],
+  "responses": [
+    "IT Workshop is taught by Prof. V Swapna."
+  ]
+},{
+  "tag": "faculty_msf",
+  "patterns": [
+    "who teaches mathematical and statistical foundations",
+    "msf faculty name",
+    "math and statistics teacher",
+    "who handles msf subject",
+    "faculty for mathematical foundations",
+    "msf professor",
+    "who teaches statistics and mathematics"
+  ],
+  "responses": [
+    "Mathematical and Statistical Foundations is taught by Prof. ."
+  ]
+},
+{
+      "tag": "faculty_data_structures",
       "patterns": [
-        "who teaches mathematics",
-        "faculty for programming",
         "who teaches data structures",
-        "faculty for dbms",
-        "who teaches operating systems",
-        "who teaches algorithms",
-        "faculty for computer networks",
-        "who teaches artificial intelligence",
-        "faculty for machine learning",
-        "who teaches software engineering"
+        "data structures faculty",
+        "ds teacher name",
+        "who handles data structures subject",
+        "faculty for ds",
+        "who teaches dsa",
+        "data structures professor"
       ],
       "responses": [
-        "Mathematics-I and II are taught by prof.A Vinay Sri.",
-        "Programming for Problem Solving / Object Oriented Programming is taught by Prof. Asha Jyothi.",
-        "Data Structures is taught by Prof. V Swapna.",
-        "Database Management Systems (DBMS) is taught by Prof. C Naresh Sagar.",
-        "Operating Systems is taught by Prof.C Naresh Sagar .",
-        "Design and Analysis of Algorithms is taught by Prof. K Indraneel.",
-        "Computer Networks is taught by Prof. K Gattaiah.",
-        "Artificial Intelligence is taught by Prof.K Indraneel.",
-        "Machine Learning is taught by Prof. B Mahesh.",
+        "Data Structures is taught by Prof. V Swapna."
+      ]
+    },
+    {
+  "tag": "faculty_coa",
+  "patterns": [
+    "who teaches computer organization and architecture",
+    "coa faculty name",
+    "computer architecture teacher",
+    "who handles coa subject",
+    "faculty for computer organization",
+    "coa professor",
+    "who teaches computer architecture"
+  ],
+  "responses": [
+    "Computer Organization and Architecture is taught by Prof. [Faculty Name]."
+  ]
+},
+    {
+      "tag": "faculty_software_engineering",
+      "patterns": [
+        "who teaches software engineering",
+        "se faculty name",
+        "software engineering teacher",
+        "who handles se subject",
+        "faculty for software engineering",
+        "se professor",
+        "who teaches software subject"
+      ],
+      "responses": [
         "Software Engineering is taught by Prof. K Indraneel."
       ]
-    },
-    {
-      "tag": "faculty_subject_csm",
+},
+{
+      "tag": "faculty_operating_systems",
       "patterns": [
-        "who teaches ai",
-        "faculty for machine learning(ml)",
-        "who teaches deep learning",
-        "faculty for data science(ds)",
-        "who teaches python programming",
-        "who teaches object oriented programming"
+        "who teaches operating systems",
+        "os faculty name",
+        "operating systems teacher",
+        "who handles os subject",
+        "faculty for operating system",
+        "os professor",
+        "who teaches system software"
       ],
       "responses": [
-        "ai: Artificial Intelligence is taught by Prof.Indraneel.",
-        "ml: Machine Learning is taught by Prof. B Mahesh.",
-        "deep learning : Deep Learning is taught by Prof. Anil Kumar.",
-        "ds: Data Science is taught by Prof. V swapna.",
-        "python : Python Programming is taught by Prof. Asha Jyothi.",
-        "Object Oriented Programming is taught by Prof. Asha Jyothi."
+        "Operating Systems is taught by Prof. C Naresh Sagar."
       ]
     },
-    {
-      "tag": "faculty_subject_ece",
+{
+  "tag": "faculty_ids_lab",
+  "patterns": [
+    "who teaches introduction to data structures lab",
+    "ids lab faculty",
+    "data structures lab teacher",
+    "who handles ids lab",
+    "faculty for data structures lab",
+    "ids lab professor",
+    "who teaches ds lab"
+  ],
+  "responses": [
+    "Introduction to Data Structures Lab is handled by Prof. V Swapna."
+  ]
+},
+{
+  "tag": "faculty_os_lab",
+  "patterns": [
+    "who teaches operating systems lab",
+    "os lab faculty",
+    "operating systems lab teacher",
+    "who handles os lab",
+    "faculty for os lab",
+    "os lab professor",
+    "who teaches os practicals"
+  ],
+  "responses": [
+    "Operating Systems Lab is handled by Prof. C Naresh Sagar."
+  ]
+},
+{
+  "tag": "faculty_se_lab",
+  "patterns": [
+    "who teaches software engineering lab",
+    "se lab faculty",
+    "software engineering lab teacher",
+    "who handles se lab",
+    "faculty for software engineering lab",
+    "se lab professor",
+    "who teaches se practicals"
+  ],
+  "responses": [
+    "Software Engineering Lab is handled by Prof. K Indraneel."
+  ]
+},
+{
+  "tag": "faculty_fullstack",
+  "patterns": [
+    "who teaches node js",
+    "who teaches react js",
+    "who teaches django",
+    "full stack faculty",
+    "web development teacher",
+    "who handles node react django",
+    "faculty for web technologies"
+  ],
+  "responses": [
+    "Node JS / React JS / Django is taught by Prof. C Naresh Sagar."
+  ]
+},
+{
+  "tag": "faculty_constitution",
+  "patterns": [
+    "who teaches constitution of india",
+    "constitution faculty",
+    "indian constitution teacher",
+    "who handles constitution subject",
+    "faculty for constitution",
+    "constitution professor",
+    "who teaches civics subject"
+  ],
+  "responses": [
+    "Constitution of India is taught by Prof. B Venkataswamy."
+  ]
+},
+{
+  "tag": "faculty_discrete_math",
+  "patterns": [
+    "who teaches discrete mathematics",
+    "dm faculty name",
+    "discrete math teacher",
+    "who handles discrete maths",
+    "faculty for discrete mathematics",
+    "dm professor",
+    "who teaches discrete structures"
+  ],
+  "responses": [
+    "Discrete Mathematics is taught by Prof. A Vinaya Sri."
+  ]
+},
+{
+  "tag": "faculty_atcd",
+  "patterns": [
+    "who teaches automata theory and compiler design",
+    "atcd faculty name",
+    "compiler design teacher",
+    "who handles automata subject",
+    "faculty for compiler design",
+    "atcd professor",
+    "who teaches automata theory"
+  ],
+  "responses": [
+    "Automata Theory and Compiler Design is taught by Prof. V Swapna."
+  ]
+},
+ {
+      "tag": "faculty_dbms",
       "patterns": [
-        "who teaches network theory",
-        "faculty for digital logic design",
-        "who teaches signals and systems",
-        "faculty for vlsi design",
-        "who teaches embedded systems",
-        "who teaches NAS",
-        "faculty for communication systems"
+        "who teaches dbms",
+        "dbms faculty name",
+        "database teacher",
+        "who handles dbms subject",
+        "faculty for database management",
+        "dbms professor",
+        "who teaches database systems"
       ],
       "responses": [
-        "Network Theory is taught by Prof. Ravi Teja.",
-        "Digital Logic Design is taught by Prof. G Nagaraju.",
-        "Signals and Systems is taught by Prof. K Naresh Kumar.",
-        "VLSI Design is taught by Prof. K Naresh Kumar .",
-        "Embedded Systems is taught by Prof. H Jyothi.",
-        "NAS is taught by Prof. H Jyothi.",
-        "Analog and Digital Communication is taught by Prof. K Balaramudu."
+        "Database Management Systems (DBMS) is taught by Prof. C Naresh Sagar."
       ]
     },
-    {
-      "tag": "faculty_subject_civil",
+{
+      "tag": "faculty_ai",
       "patterns": [
-        "who teaches engineering mechanics",
-        "faculty for strength of materials",
-        "who teaches surveying",
-        "faculty for concrete technology",
-        "who teaches geotechnical engineering",
-        "faculty for transportation engineering",
-        "who teaches water resources"
+        "who teaches artificial intelligence",
+        "ai faculty name",
+        "ai teacher",
+        "who handles ai subject",
+        "faculty for artificial intelligence",
+        "ai professor",
+        "who teaches ai"
       ],
       "responses": [
-        "Engineering Mechanics is taught by Prof.H Jayappa .",
-        "Strength of Materials is taught by Prof. Ravi Teja.",
-        "Surveying is taught by Prof. Srikanth Kumar.",
-        "Concrete Technology is taught by Prof. Jyothi Priya.",
-        "Geotechnical Engineering is taught by Prof. Suresh Babu.",
-        "Transportation Engineering is taught by Prof. Ramesh Kumar.",
-        "Water Resources Engineering is taught by Prof. Bhargavi."
+        "Artificial Intelligence is taught by Prof. K Indraneel."
       ]
     },
-    {
-      "tag": "faculty_subject_mechanical",
+{
+  "tag": "faculty_oop_java",
+  "patterns": [
+    "who teaches object oriented programming through java",
+    "oop java faculty",
+    "java oop teacher",
+    "who handles oop subject",
+    "faculty for oop",
+    "oop professor",
+    "who teaches java programming"
+  ],
+  "responses": [
+    "Object Oriented Programming through Java is taught by Prof. Ch Asha Jyothi."
+  ]
+},
+{
+  "tag": "faculty_dbms_lab",
+  "patterns": [
+    "who teaches dbms lab",
+    "database lab faculty",
+    "dbms practical teacher",
+    "who handles dbms lab",
+    "faculty for dbms lab",
+    "dbms lab professor",
+    "who teaches database lab"
+  ],
+  "responses": [
+    "DBMS Lab is handled by Prof. C Naresh Sagar."
+  ]
+},
+{
+  "tag": "faculty_java_lab",
+  "patterns": [
+    "who teaches java programming lab",
+    "java lab faculty",
+    "java lab teacher",
+    "who handles java lab",
+    "faculty for java lab",
+    "java lab professor",
+    "who teaches java practicals"
+  ],
+  "responses": [
+    "Java Programming Lab is handled by Prof. Ch Asha Jyothi."
+  ]
+},
+{
+  "tag": "faculty_rtrp",
+  "patterns": [
+    "who teaches real time research project",
+    "research project faculty",
+    "rtrp teacher",
+    "who handles project subject",
+    "faculty for project work",
+    "project guide name",
+    "who guides research project"
+  ],
+  "responses": [
+    "Real Time Research Project is guided by Prof. Ch Asha Jyothi."
+  ]
+},
+{
+  "tag": "faculty_prolog_lab",
+  "patterns": [
+    "who teaches prolog lab",
+    "prolog faculty",
+    "prolog lab teacher",
+    "who handles prolog subject",
+    "faculty for prolog",
+    "prolog professor",
+    "who teaches logic programming lab"
+  ],
+  "responses": [
+    "Prolog Lab is handled by Prof. V Swapna."
+  ]
+},
+{
+  "tag": "faculty_gender_lab",
+  "patterns": [
+    "who teaches gender sensitization lab",
+    "gender lab faculty",
+    "gender sensitization teacher",
+    "who handles gender lab",
+    "faculty for gender sensitization",
+    "gender lab professor",
+    "who teaches gender awareness"
+  ],
+  "responses": [
+    "Gender Sensitization Lab is handled by Prof. G Sunkann , G Govind."
+  ]
+},
+{
+      "tag": "faculty_algorithms",
       "patterns": [
-        "who teaches thermodynamics",
-        "faculty for fluid mechanics",
-        "who teaches strength of materials",
-        "faculty for manufacturing processes",
-        "who teaches heat transfer",
-        "faculty for dynamics of machinery",
-        "who teaches cad cam"
+        "who teaches algorithms",
+        "daa faculty name",
+        "design and analysis faculty",
+        "who handles algorithms subject",
+        "faculty for daa",
+        "algorithms professor",
+        "who teaches design and analysis of algorithms"
       ],
       "responses": [
-        "Thermodynamics is taught by Prof. Asha Jyothi.",
-        "Fluid Mechanics is taught by Prof. Ravi Teja.",
-        "Strength of Materials is taught by Prof. Srikanth Kumar.",
-        "Manufacturing Processes is taught by Prof. Naga Raju.",
-        "Heat Transfer is taught by Prof. Lakshmi Priya.",
-        "Dynamics of Machinery is taught by Prof. Bhargavi.",
-        "CAD/CAM is taught by Prof. Suresh Babu."
+        "Design and Analysis of Algorithms is taught by Prof. G Kavya."
       ]
     },
-    {
-      "tag": "goodbye",
-      "patterns": ["bye", "thank you", "thanks"],
+{
+      "tag": "faculty_ml",
+      "patterns": [
+        "who teaches machine learning",
+        "ml faculty name",
+        "machine learning teacher",
+        "who handles ml subject",
+        "faculty for ml",
+        "ml professor",
+        "who teaches machine learning subject"
+      ],
       "responses": [
-        "Thank you for contacting UCEW. Have a great day!",
-        "Goodbye! Feel free to ask if you have more questions."
+        "Machine Learning is taught by Prof. K Indraneel."
       ]
-    }
+    },
+{
+      "tag": "faculty_computer_networks",
+      "patterns": [
+        "who teaches computer networks",
+        "cn faculty name",
+        "networking teacher",
+        "who handles cn subject",
+        "faculty for networks",
+        "computer networks professor",
+        "who teaches networking"
+      ],
+      "responses": [
+        "Computer Networks is taught by Prof. K Gattaiah."
+      ]
+    },
+{
+  "tag": "faculty_befa",
+  "patterns": [
+    "who teaches business economics and financial analysis",
+    "befa faculty name",
+    "economics teacher",
+    "who handles befa subject",
+    "faculty for economics",
+    "befa professor",
+    "who teaches financial analysis"
+  ],
+  "responses": [
+    "Business Economics and Financial Analysis is taught by Prof. G Nirmala."
+  ]
+},
+{
+  "tag": "faculty_ml_lab",
+  "patterns": [
+    "who teaches machine learning lab",
+    "ml lab faculty",
+    "machine learning practical teacher",
+    "who handles ml lab",
+    "faculty for ml lab",
+    "ml lab professor",
+    "who teaches ml practicals"
+  ],
+  "responses": [
+    "Machine Learning Lab is handled by Prof. K Indraneel."
+  ]
+},
+{
+  "tag": "faculty_cn_lab",
+  "patterns": [
+    "who teaches computer networks lab",
+    "cn lab faculty",
+    "network lab teacher",
+    "who handles cn lab",
+    "faculty for network lab",
+    "cn lab professor",
+    "who teaches networking practicals"
+  ],
+  "responses": [
+    "Computer Networks Lab is handled by Prof. K Gattaiah."
+  ]
+},
+{
+  "tag": "faculty_aecs_lab",
+  "patterns": [
+    "who teaches advanced english communication skills lab",
+    "aecs lab faculty",
+    "communication lab teacher",
+    "who handles english lab",
+    "faculty for communication lab",
+    "aecs professor",
+    "who teaches english lab"
+  ],
+  "responses": [
+    "Advanced English Communication Skills Lab is handled by Prof. G Sunkanna."
+  ]
+},
+{
+  "tag": "faculty_ui_flutter",
+  "patterns": [
+    "who teaches ui design flutter",
+    "flutter faculty name",
+    "ui design teacher",
+    "who handles flutter subject",
+    "faculty for ui design",
+    "flutter professor",
+    "who teaches mobile app development"
+  ],
+  "responses": [
+    "UI Design using Flutter is taught by Prof. K Indraneel."
+  ]
+},
+{
+  "tag": "faculty_ipr",
+  "patterns": [
+    "who teaches intellectual property rights",
+    "ipr faculty name",
+    "ipr teacher",
+    "who handles ipr subject",
+    "faculty for intellectual property",
+    "ipr professor",
+    "who teaches patents and copyrights"
+  ],
+  "responses": [
+    "Intellectual Property Rights is taught by Prof. K Indraneel ."
+  ]
+},
+{
+  "tag": "faculty_krr",
+  "patterns": [
+    "who teaches knowledge representation and reasoning",
+    "krr faculty name",
+    "krr teacher",
+    "who handles krr subject",
+    "faculty for knowledge representation",
+    "krr professor",
+    "who teaches reasoning subject"
+  ],
+  "responses": [
+    "Knowledge Representation and Reasoning is taught by Prof.  K Indraneel."
+  ]
+},
+{
+  "tag": "faculty_data_analytics",
+  "patterns": [
+    "who teaches data analytics",
+    "data analytics faculty",
+    "analytics teacher",
+    "who handles data analytics subject",
+    "faculty for analytics",
+    "data analytics professor",
+    "who teaches big data analytics"
+  ],
+  "responses": [
+    "Data Analytics is taught by Prof.  K Indraneel."
+  ]
+},
+{
+  "tag": "faculty_nlp",
+  "patterns": [
+    "who teaches natural language processing",
+    "nlp faculty name",
+    "nlp teacher",
+    "who handles nlp subject",
+    "faculty for nlp",
+    "nlp professor",
+    "who teaches language processing"
+  ],
+  "responses": [
+    "Natural Language Processing is taught by Prof. V.Swapna."
+  ]
+},
+{
+  "tag": "faculty_nlp_lab",
+  "patterns": [
+    "who teaches natural language processing lab",
+    "nlp lab faculty",
+    "nlp practical teacher",
+    "who handles nlp lab",
+    "faculty for nlp lab",
+    "nlp lab professor",
+    "who teaches nlp practicals"
+  ],
+  "responses": [
+    "Natural Language Processing Lab is handled by Prof. V Swapna."
+  ]
+},
+{
+  "tag": "faculty_data_analytics_lab",
+  "patterns": [
+    "who teaches data analytics lab",
+    "data analytics lab faculty",
+    "analytics lab teacher",
+    "who handles analytics lab",
+    "faculty for data analytics lab",
+    "analytics lab professor",
+    "who teaches analytics practicals"
+  ],
+  "responses": [
+    "Data Analytics Lab is handled by Prof.  K Indraneel."
+  ]
+},
+{
+  "tag": "faculty_devops_project",
+  "patterns": [
+    "who teaches devops",
+    "devops faculty name",
+    "internship faculty",
+    "who handles devops project",
+    "faculty for internship",
+    "devops professor",
+    "who guides mini project"
+  ],
+  "responses": [
+    "Industrial Oriented Mini Project / Internship / DevOps course is guided by Prof.  K Indraneel."
+  ]
+},
+{
+  "tag": "faculty_deep_learning",
+  "patterns": [
+    "who teaches deep learning",
+    "deep learning faculty name",
+    "dl teacher",
+    "who handles deep learning subject",
+    "faculty for deep learning",
+    "deep learning professor",
+    "who teaches neural networks"
+  ],
+  "responses": [
+    "Deep Learning is taught by Prof.  K Indraneel."
+  ]
+},
+{
+  "tag": "faculty_nic",
+  "patterns": [
+    "who teaches nature inspired computing",
+    "nic faculty name",
+    "nature inspired computing teacher",
+    "who handles nic subject",
+    "faculty for nic",
+    "nic professor",
+    "who teaches bio inspired algorithms"
+  ],
+  "responses": [
+    "Nature Inspired Computing is taught by Prof. G Kavya."
+  ]
+},
+{
+  "tag": "faculty_professional_practice",
+  "patterns": [
+    "who teaches professional practice",
+    "professional practice faculty",
+    "law and ethics teacher",
+    "who handles professional practice subject",
+    "faculty for ethics",
+    "professional practice professor",
+    "who teaches law and ethics"
+  ],
+  "responses": [
+    "Professional Practice, Law & Ethics is taught by Prof.  K Indraneel."
+  ]
+}
   ]
 }
