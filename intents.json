@@ -2350,5 +2350,336 @@
     "Professional Practice, Law & Ethics is taught by Prof.  K Indraneel."
   ]
 }
+    {
+  "tag": "faculty_probability",
+  "patterns": [
+    "who teaches probability theory",
+    "statistics faculty name",
+    "probability teacher",
+    "who handles probability subject",
+    "faculty for statistics",
+    "probability professor",
+    "who teaches stochastic processes"
+  ],
+  "responses": [
+    "Probability Theory and Stochastic Processes is taught by Prof. Dr.N. Kurmaiah."
+  ]
+},
+{
+  "tag": "faculty_emtl",
+  "patterns": [
+    "who teaches electromagnetic fields",
+    "emtl faculty name",
+    "transmission lines teacher",
+    "who handles emft subject",
+    "faculty for emft",
+    "emtl professor",
+    "who teaches transmission lines"
+  ],
+  "responses": [
+    "Electromagnetic Fields and Transmission Lines is taught by Prof. K Naresh Kumar ."
+  ]
+},
+{
+  "tag": "faculty_adc",
+  "patterns": [
+    "who teaches analog and digital communications",
+    "adc faculty name",
+    "communication systems teacher",
+    "who handles adc subject",
+    "faculty for communications",
+    "adc professor",
+    "who teaches communication systems"
+  ],
+  "responses": [
+    "Analog and Digital Communications is taught by Prof. K.Balaramudu."
+  ]
+},
+{
+  "tag": "faculty_ldic",
+  "patterns": [
+    "who teaches linear digital ic applications",
+    "ldic faculty name",
+    "digital ic teacher",
+    "who handles ldic subject",
+    "faculty for ic applications",
+    "ldic professor",
+    "who teaches digital ic"
+  ],
+  "responses": [
+    "Linear and Digital Integrated Circuits Applications in is taught by Prof. G.Nagaraju."
+  ]
+},
+{
+  "tag": "faculty_eca",
+  "patterns": [
+    "who teaches electronic circuit analysis",
+    "eca faculty name",
+    "circuit analysis teacher",
+    "who handles eca subject",
+    "faculty for circuits",
+    "eca professor",
+    "who teaches electronic circuits"
+  ],
+  "responses": [
+    "Electronic Circuit Analysis is taught by Prof. H.Jyothi."
+  ]
+},
+{
+  "tag": "faculty_nmcv",
+  "patterns": [
+    "who teaches numerical methods",
+    "complex variables faculty",
+    "nmcv teacher",
+    "who handles numerical methods",
+    "faculty for complex variables",
+    "nmcv professor",
+    "who teaches numerical methods and cv"
+  ],
+  "responses": [
+    "Numerical Methods and Complex Variables is taught by Prof. A.Vinayasri."
+  ]
+},
+{
+  "tag": "faculty_analog_circuits",
+  "patterns": [
+    "who teaches analog circuits",
+    "analog circuits faculty",
+    "analog electronics teacher",
+    "who handles analog subject",
+    "faculty for analog circuits",
+    "analog professor",
+    "who teaches electronics circuits"
+  ],
+  "responses": [
+    "Analog Circuits is taught by Prof. K.Balaramudu."
+  ]
+},
+{
+  "tag": "faculty_nas",
+  "patterns": [
+    "who teaches network analysis",
+    "nas faculty name",
+    "network analysis teacher",
+    "who handles network synthesis",
+    "faculty for networks analysis",
+    "nas professor",
+    "who teaches circuit networks"
+  ],
+  "responses": [
+    "Network Analysis and Synthesis is taught by Prof. H Jyothi."
+  ]
+},
+{
+  "tag": "faculty_dld",
+  "patterns": [
+    "who teaches digital logic design",
+    "dld faculty name",
+    "logic design teacher",
+    "who handles dld subject",
+    "faculty for digital logic",
+    "dld professor",
+    "who teaches logic circuits"
+  ],
+  "responses": [
+    "Digital Logic Design is taught by Prof. G. Nagaraju."
+  ]
+},
+{
+  "tag": "faculty_signals",
+  "patterns": [
+    "who teaches signals and systems",
+    "signals faculty",
+    "signals teacher",
+    "who handles signals subject",
+    "faculty for signals",
+    "signals professor",
+    "who teaches systems theory"
+  ],
+  "responses": [
+    "Signals and Systems is taught by Prof. K. Naresh Kumar."
+  ]
+},
+{
+  "tag": "faculty_microcontrollers",
+  "patterns": [
+    "who teaches microcontrollers",
+    "microcontroller faculty",
+    "embedded controller teacher",
+    "who handles microcontroller subject",
+    "faculty for microcontrollers",
+    "microcontroller professor",
+    "who teaches embedded controllers"
+  ],
+  "responses": [
+    "Microcontrollers is taught by Prof. ."
+  ]
+},
+{
+  "tag": "faculty_iotp",
+  "patterns": [
+    "who teaches iotp",
+    "iotp faculty name",
+    "internet of things teacher",
+    "who handles iotp subject",
+    "faculty for iotp",
+    "iotp professor",
+    "who teaches iot protocols"
+  ],
+  "responses": [
+    "IoT Architectures and Protocols is taught by Prof. K.Gattaiah."
+  ]
+},
+{
+  "tag": "faculty_control",
+  "patterns": [
+    "who teaches control systems",
+    "control system faculty",
+    "control engineering teacher",
+    "who handles control subject",
+    "faculty for control systems",
+    "control professor",
+    "who teaches feedback systems"
+  ],
+  "responses": [
+    "Control Systems is taught by Prof. H. Jyothi."
+  ]
+},
+{
+  "tag": "faculty_antennas",
+  "patterns": [
+    "who teaches antennas",
+    "antenna faculty name",
+    "wave propagation teacher",
+    "who handles antenna subject",
+    "faculty for antennas",
+    "antenna professor",
+    "who teaches wave propagation"
+  ],
+  "responses": [
+    "Antennas and Wave Propagation is taught by Prof. [Faculty Name]."
+  ]
+},
+{
+  "tag": "faculty_dsp",
+  "patterns": [
+    "who teaches digital signal processing",
+    "dsp faculty name",
+    "signal processing teacher",
+    "who handles dsp subject",
+    "faculty for dsp",
+    "dsp professor",
+    "who teaches signal processing"
+  ],
+  "responses": [
+    "Digital Signal Processing is taught by Prof. A. Maheshwari."
+  ]
+},
+{
+  "tag": "faculty_vlsi",
+  "patterns": [
+    "who teaches cmos vlsi design",
+    "vlsi faculty name",
+    "vlsi design teacher",
+    "who handles vlsi subject",
+    "faculty for vlsi",
+    "vlsi professor",
+    "who teaches chip design"
+  ],
+  "responses": [
+    "CMOS VLSI Design is taught by Prof. K. Naresh Kumar."
+  ]
+},
+{
+  "tag": "faculty_microwave",
+  "patterns": [
+    "who teaches microwave communications",
+    "microwave faculty",
+    "optical communication teacher",
+    "who handles microwave subject",
+    "faculty for microwave",
+    "microwave professor",
+    "who teaches optical communications"
+  ],
+  "responses": [
+    "Microwave and Optical Communications is taught by Prof. Karthik Reddy."
+  ]
+},
+
+{
+  "tag": "faculty_cse",
+  "patterns": [
+    "faculty for cse",
+    "who are cse faculty",
+    "cse department teachers",
+    "computer science faculty",
+    "staff in cse",
+    "who teaches in cse department",
+    "cse professors"
+  ],
+  "responses": [
+    "The CSE department faculty includes Prof. A Vinay Sri, Prof. Asha Jyothi, Prof. V Swapna, Prof. C Naresh Sagar, Prof. K Indraneel, Prof. K Gattaiah, and others."
+  ]
+},
+{
+  "tag": "faculty_cse_aiml",
+  "patterns": [
+    "faculty for cse aiml",
+    "who are aiml faculty",
+    "cse ai ml teachers",
+    "artificial intelligence faculty",
+    "staff in aiml department",
+    "who teaches in ai ml",
+    "aiml professors"
+  ],
+  "responses": [
+    "The CSE (AI & ML) department faculty includes V.Swapna. G.Kavya, P.Bheemudu, A.Maheshwari, A.Vinaysri, C.Naresg Sagar, G.Govind, Ch.Asha Jyothi, G.Chandraiah and others."
+  ]
+},
+{
+  "tag": "faculty_ece",
+  "patterns": [
+    "faculty for ece",
+    "who are ece faculty",
+    "ece department teachers",
+    "electronics faculty",
+    "staff in ece",
+    "who teaches in ece department",
+    "ece professors"
+  ],
+  "responses": [
+    "The ECE department faculty includes prof. K.Naresh Kuamr,C.Naresh Sagar, P.Bheemudu, A.Maheshwari, G.Kavya, A.Vianayasri, H. Jyothi, G.Chandraiah, G.Govind, N.Vinay Kumar, M.Srihari, Ch.Asha Jyothi and others."
+  ]
+},
+{
+  "tag": "faculty_civil",
+  "patterns": [
+    "faculty for civil",
+    "who are civil faculty",
+    "civil department teachers",
+    "civil engineering faculty",
+    "staff in civil",
+    "who teaches in civil department",
+    "civil professors"
+  ],
+  "responses": [
+    "The Civil Engineering department faculty include C.Mogilanna, G.Chandraiah, A.Vinaysri, P.Bheemudu, S.Dinakar Sagar, G.Kavya, Ch,Asha Jyothi, H.Jayappa, B.Venkataswamy, M.Ramesh Babu, M.Saithish KUmar, G.Saileela."
+  ]
+},
+{
+  "tag": "faculty_mechanical",
+  "patterns": [
+    "faculty for mechanical",
+    "who are mechanical faculty",
+    "mechanical department teachers",
+    "mech faculty",
+    "staff in mechanical",
+    "who teaches in mechanical department",
+    "mechanical professors"
+  ],
+  "responses": [
+    "The Mechanical Engineering department faculty includes N.Vinay Kumar, A.Vinayasri, C.Naresh sagar, G.Chandraiah, N.Mahesh, M.Srihari, G.Kavya, P.Bheemudu, B.Teja Vardhan, M sainath, Sailaja D.Ramesh Babu, B.Venkataswamy, H.Jayappa, G.Sunkanna and others."
+  ]
+}
   ]
 }
