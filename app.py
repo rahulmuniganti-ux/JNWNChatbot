@@ -5,8 +5,7 @@ import os
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__) 
-app.secret_key = os.environ.get("SECRET_KEY", "fallback")
-
+app.secret_key = os.environ.get("SECRET_KEY", "fallback_secret_key_change_in_production")
 
 # -----------------------------
 # Admin Credentials (hashed)
@@ -17,47 +16,59 @@ ADMIN_PASSWORD_HASH = generate_password_hash("prathima25")
 # -----------------------------
 # Load intents.json
 # -----------------------------
-with open("intents.json") as f:
-    intents = json.load(f)
+def load_intents():
+    try:
+        intents_path = os.path.join(os.path.dirname(__file__), "intents.json")
+        with open(intents_path, "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print("ERROR: intents.json not found!")
+        return {"intents": []}
+
+intents = load_intents()
 
 # -----------------------------
 # Load learned data
 # -----------------------------
 def load_learned_data():
-    if not os.path.exists("learned.json"):
-        with open("learned.json", "w") as f:
+    learned_path = os.path.join(os.path.dirname(__file__), "learned.json")
+    
+    if not os.path.exists(learned_path):
+        with open(learned_path, "w") as f:
             json.dump({"learned": [], "pending": []}, f)
 
-    with open("learned.json") as f:
+    with open(learned_path, "r") as f:
         return json.load(f)
+
+def save_learned_data(data):
+    learned_path = os.path.join(os.path.dirname(__file__), "learned.json")
+    with open(learned_path, "w") as f:
+        json.dump(data, f, indent=2)
 
 # -----------------------------
 # Chatbot logic (User cannot teach)
 # -----------------------------
-
 def chatbot_response(user_input):
     user_input = user_input.lower()
     data = load_learned_data()
 
     # Check learned answers
     for item in data["learned"]:
-        if item["question"] in user_input:
+        if item["question"].lower() in user_input:
             return item["answer"]
 
     # Check predefined intents
     for intent in intents["intents"]:
         for pattern in intent["patterns"]:
-            if pattern.lower() == user_input:
+            if pattern.lower() in user_input:
                 return random.choice(intent["responses"])
 
     # Unknown question → store for admin
-    if user_input not in data["pending"]:
+    if user_input not in [q.lower() for q in data["pending"]]:
         data["pending"].append(user_input)
-        with open("learned.json", "w") as f:
-            json.dump(data, f, indent=2)
+        save_learned_data(data)
 
-    return "Sorry,I don’t know,we provide the Answer in few days"
-
+    return "Sorry, I don't know, we will provide the answer in a few days"
 
 # -----------------------------
 # Routes
@@ -72,16 +83,15 @@ def about():
 
 @app.route("/chat", methods=["POST"])
 def chat():
-    user_message = request.json["message"]
+    user_message = request.json.get("message", "")
     response = chatbot_response(user_message)
     return jsonify({"reply": response})
 
 @app.route("/get", methods=["POST"])
 def chatbot():
+    user_message = request.json.get("message", "").lower()
 
-    user_message = request.json["message"].lower()
-
-    for intent in intents ["intents"]:
+    for intent in intents["intents"]:
         for pattern in intent["patterns"]:
             if pattern.lower() in user_message:
                 return jsonify({"reply": random.choice(intent["responses"])})
@@ -94,8 +104,8 @@ def chatbot():
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
-        username = request.form["username"]
-        password = request.form["password"]
+        username = request.form.get("username", "")
+        password = request.form.get("password", "")
         
         if username == ADMIN_USERNAME and check_password_hash(ADMIN_PASSWORD_HASH, password):
             session["admin"] = True
@@ -121,15 +131,15 @@ def admin():
 
     # Admin teaches new pending question
     if request.method == "POST":
-        question = request.form["question"]
-        answer = request.form["answer"]
+        question = request.form.get("question", "")
+        answer = request.form.get("answer", "")
 
-        data["learned"].append({"question": question, "answer": answer})
-        if question in data["pending"]:
-            data["pending"].remove(question)
+        if question and answer:
+            data["learned"].append({"question": question, "answer": answer})
+            if question in data["pending"]:
+                data["pending"].remove(question)
 
-        with open("learned.json", "w") as f:
-            json.dump(data, f, indent=2)
+            save_learned_data(data)
 
     return render_template("admin.html", learned=data["learned"], pending=data["pending"])
 
@@ -143,13 +153,13 @@ def edit(index):
 
     data = load_learned_data()
 
+    if index >= len(data["learned"]):
+        return redirect(url_for("admin"))
+
     if request.method == "POST":
-        data["learned"][index]["question"] = request.form["question"]
-        data["learned"][index]["answer"] = request.form["answer"]
-
-        with open("learned.json", "w") as f:
-            json.dump(data, f, indent=2)
-
+        data["learned"][index]["question"] = request.form.get("question", "")
+        data["learned"][index]["answer"] = request.form.get("answer", "")
+        save_learned_data(data)
         return redirect(url_for("admin"))
 
     item = data["learned"][index]
@@ -166,13 +176,19 @@ def delete(index):
     data = load_learned_data()
     if index < len(data["learned"]):
         data["learned"].pop(index)
-        with open("learned.json", "w") as f:
-            json.dump(data, f, indent=2)
+        save_learned_data(data)
     return redirect(url_for("admin"))
 
+# -----------------------------
+# Health Check (for deployment)
+# -----------------------------
+@app.route("/health")
+def health():
+    return jsonify({"status": "ok"}), 200
 
 # -----------------------------
 # Run App
 # -----------------------------
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port, debug=False)
