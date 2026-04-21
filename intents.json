@@ -1395,17 +1395,17 @@
         "R25 Civil final year includes advanced professional electives, open elective, Project Phase-I, Project Phase-II, seminar, and mandatory internship."
       ]
     },
-    {
-      "tag": "r25_civil_exam_pattern",
-      "patterns": [
-        "r25 civil exam pattern",
-        "r25 civil evaluation",
-        "internal external marks r25 civil"
-      ],
-      "responses": [
-        "R25 Civil follows an outcome-based education system with continuous internal assessment, end-semester examinations, and strong emphasis on projects and internships."
-      ]
-    },
+  {
+  "tag": "r25_civil_exam_pattern",
+  "patterns": [
+    "r25 civil exam pattern",
+    "r25 civil evaluation",
+    "internal external marks r25 civil"
+  ],
+  "responses": [
+    "R25 Civil follows an outcome-based education system with continuous internal assessment, end-semester examinations, and emphasis on projects and internships."
+  ]
+},
     {
       "tag": "r25_civil_career",
       "patterns": [
